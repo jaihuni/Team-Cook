@@ -142,22 +142,7 @@ By dragging the slide button of estimated time, user can control the time requir
 
 ## Studio Reflections
 
-### memos from yesterday's studio
-
-- (student's question) add user's preference
-  
-  - I think letting the user put in the ingredients they want will mostly solve the problem. In other ways, we can provide a history feature or make users can search for their favorite recipe.
-- (TA's question) why do self-boarding students have trouble following conventional
-  
-  - Time, cooking tools, ingredients (they can't put much effort into cooking - a friend of mine one said that lectures and assignments are the biggest hazards to cooking)
-- (student's question) source of the recipes
-  
-  - top of google search site
-- (student's question) how do you find which steps/ingredients can be removed?
-  - Input multiple recipes' ingredients and find the stuff that do not overlap? (need a lot of data)
-  - how to implement the important/unimportant step division: compare conventional recipes, or use the knowledge about cooking.
-
-- Advice
+### Advice
 
 (TA/Eunyoung) Be prepared to the question on the ‘data’ and ‘algorithm’ part which are necessary to your system. You dont’ have to get/implement that but you should be able to explain why you assume something or use something. 
 
@@ -184,8 +169,6 @@ By dragging the slide button of estimated time, user can control the time requir
 (Beagles/Woojin) What if difficulties of recipes are also provided?
 
 > Good idea; We could provide a difficulty scale next to the recipe title.
-
-
 
 #### Memos from Tuesday's studio
 
