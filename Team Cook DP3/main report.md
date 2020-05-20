@@ -28,13 +28,19 @@ We chose NOT to implement
 1. Algorithms for the recipe suggestion, the amount calculation, and editing the recipe. Response is hard-coded and always same. We provided a fixed suggestion and recipe based on the user scenario, and give testers the scenario instead of there real needs.
 2. Text input of amount, because it is hard to implement in the prototyping tool.
 
-
 ### Representative Screenshots
+
+#### Task 1
+
 <img src="/img/Screenshot1.PNG" width="600" height="350">
 User can check ingredients that user wants and get suggestion from the selection.
 
 <img src="/img/Screenshot2.PNG" width="400" height="300">
 Also there are some pre-made sets for convenience.
+
+
+
+#### Task 2
 
 <img src="/img/Screenshot3.PNG" width="600" height="400">
 Recipes have Ingredients part and Steps part.
@@ -44,6 +50,8 @@ User can input the amounts of ingredients that user wants to use.
 
 <img src="/img/Screenshot5.PNG" width="700" height="200">
 The amount of ingredients of the recipe is changed with proper ratio of ingredients based by user's input. Also, the food amount is changed from 2 people to 4 people.
+
+#### Task 3
 
 <img src="/img/Screenshot6.PNG" width="800" height="400">
 By dragging the slide button of estimated time, user can control the time required for cooking. With the time, recipe is simplified by skipping or combining some steps.
@@ -140,7 +148,7 @@ By dragging the slide button of estimated time, user can control the time requir
 
 
 
-#### Question or Suggestion
+### Question or Suggestion
 
 (TA/Eunyoung) How much modification of a recipe is allowed? For example, it is possible that I say I want to make a pizza in 10 minutes? → So it’s basically a question about how the system communicate w/ user on what is possible or not, and what is the consequence of the modification.
 
