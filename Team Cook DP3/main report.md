@@ -142,7 +142,7 @@ By dragging the slide button of estimated time, user can control the time requir
 
 ## Studio Reflections
 
-- Advice
+### Advice
 
 (TA/Eunyoung) Be prepared to the question on the ‘data’ and ‘algorithm’ part which are necessary to your system. You dont’ have to get/implement that but you should be able to explain why you assume something or use something. 
 
@@ -164,15 +164,15 @@ By dragging the slide button of estimated time, user can control the time requir
 
    - Solution or Opinion
 
-(TA/Eunyoung)  - minimum estimated time mentioned in the solution 4 of highly critical problems (& make it red font?)
+(TA/Eunyoung)  - Minimum estimated time mentioned in the improvement ideas could solve the problem.
 
 (Self-Chef/ Hyejin) - Yes, the service is similar with our service in terms of recommending meals from ingredients. However, it is just suggesting recipes depending on kinds of ingredients and meals. Our service suggest recipe depending on not only kinds, but also amount of ingredients.  In addition, the point that our recipe is fluid about ingredients or steps is another difference, too.
 
-(Beagles/Jungwon) - good idea; We can provide the necessary tools above the recipe.
+(Beagles/Jungwon) - Good idea; We could provide the necessary tools above the recipe.
 
 (NYTM/Yoonjeong) - We could add a rewrite function, and save that to the user's data and add a "favorite recipe" slot as well so users can store recipes. Providing a way for users to share their revisions or contribute to the central database would also be a good idea, but I don't think it's something we should initially focus on; it's far from the key function.
 
-(Beagles/Woojin) - good idea; We can provide a difficulty meter next to the recipe title.
+(Beagles/Woojin) - Good idea; We could provide a difficulty scale next to the recipe title.
 
 
 
