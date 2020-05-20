@@ -166,7 +166,7 @@ By dragging the slide button of estimated time, user can control the time requir
 
 (TA/Eunyoung)  - minimum estimated time mentioned in the solution 4 of highly critical problems (& make it red font?)
 
-(Self-Chef/ Hyejin) - Yes, the service is looks like our service about recommend meal from ingredients. However, it just suggested recipes depending on kinds of ingredients and meals. Our service suggested recipe depending on not just kinds, but also amount of ingredients. In addition, the point that our recipe is fluid in ingredients or steps is another difference, too.
+(Self-Chef/ Hyejin) - Yes, the service is similar with our service in terms of recommending meals from ingredients. However, it is just suggesting recipes depending on kinds of ingredients and meals. Our service suggest recipe depending on not only kinds, but also amount of ingredients.  In addition, the point that our recipe is fluid in ingredients or steps is another difference, too.
 
 (Beagles/Jungwon) - good idea; We can provide the necessary tools above the recipe.
 
