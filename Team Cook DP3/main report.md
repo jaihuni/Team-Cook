@@ -134,40 +134,40 @@ By dragging the slide button of estimated time, user can control the time requir
 
 ## Studio Reflections
 
-(TA/Eunyoung) Be prepared to the question on the ‘data’ and ‘algorithm’ part which are necessary to your system. You dont’ have to get/implement that but you should be able to explain why you assume something or use something. 
-(TA/Eunyoung) How much modification of a recipe is allowed? For example, it is possible that I say I want to make a pizza in 10 minutes? → So it’s basically a question about how the system communicate w/ user on what is possible or not, and what is the consequence of the modification.
-(Self-Chef/ Hyejin) Actually, there are already some services which suggest possible recipes using specific ingredients, so It’d be better if you make more ‘special points’ in your service! For example, you can refer to this page (https://haemukja.com/refrigerator) or some apps! <-wow
-(Beagles/Jungwon) What if you include tools?(Oven, Wok, etc) for cooking when providing recipe recommendation? not only the ingredients.
-(NYTM/Yoonjeong) What if make user can add or revise the recipes and ingredients?
-(Beagles/Woojin) What if difficulties of recipes are also provided?
+>(TA/Eunyoung) Be prepared to the question on the ‘data’ and ‘algorithm’ part which are necessary to your system. You dont’ have to get/implement that but you should be able to explain why you assume something or use something. 
+>
+> (TA/Eunyoung) How much modification of a recipe is allowed? For example, it is possible that I say I want to make a pizza in 10 minutes? → So it’s basically a question about how the system communicate w/ user on what is possible or not, and what is the consequence of the modification.
+>
+> > minimum estimated time mentioned in the soultion 4 of highly critical problems (& make it red font?)
+> >
+> (Self-Chef/ Hyejin) Actually, there are already some services which suggest possible recipes using specific ingredients, so It’d be better if you make more ‘special points’ in your service! For example, you can refer to this page (https://haemukja.com/refrigerator) or some apps! <-wow
+>
+> (Beagles/Jungwon) What if you include tools?(Oven, Wok, etc) for cooking when providing recipe recommendation? not only the ingredients.
+>
+> > good idea; provide the necessary tools above the recipe.
+>
+> (NYTM/Yoonjeong) What if make user can add or revise the recipes and ingredients?
+> 
+> > We could add a rewrite function, and save that to the user's data? and add a "favorite recipe" slot as well so users can store recipes. Providing a way for users to share their revisions or contribute to the central database would also be a good idea, but I don't think it's something we should initially focus on; it's far from the key function.
+>
+> (Beagles/Woojin) What if difficulties of recipes are also provided?
+> 
+> > good idea; we can provide a difficulty meter next to the recipe title
 
 
 
-   - Solution
+### memos from yesterday's studio
 
-to (TA/Eunyoung)  - minimum estimated time mentioned in the soultion 4 of highly critical problems (& make it red font?)
-
-(Beagles/Jungwon) - good idea; provide the necessary tools above the recipe.
-
-(NYTM/Yoonjeong) - We could add a rewrite function, and save that to the user's data? and add a "favorite recipe" slot as well so users can store recipes. Providing a way for users to share their revisions or contribute to the central database would also be a good idea, but I don't think it's something we should initially focus on; it's far from the key function.
-
-(Beagles/Woojin) - good idea; we can provide a difficulty meter next to the recipe title
-
-
-
-(memos from yesterday's studio)
-
-- (student's question) add user's preference --> I think letting the user put in the ingredients they want will mostly solve the problem; aren't they trying to make food that they want to eat?
-
-- (TA's question) why do self-boarding students have trouble following conventional recipes? --> Time, cooking tools, ingredients (they can't put much effort into cooking - a friend of mine one said that lectures and assignments are the biggest hazards to cooking)
-
-- (student's question) source of the recipes --> top of google search site
-
-- (student's question) how do you find which steps/ingredients can be removed? --> Input multiple recipes' ingredients and find the stuff that do not overlap? (need a lot of data)
-  - how to implement the important/unimportant step division: any ideas?
-
+- (student's question) add user's preference
+  - I think letting the user put in the ingredients they want will mostly solve the problem. In other ways, we can provide a history feature or make users can search for their favorite recipe.
+- (TA's question) why do self-boarding students have trouble following conventional
+  - Time, cooking tools, ingredients (they can't put much effort into cooking - a friend of mine one said that lectures and assignments are the biggest hazards to cooking)
+- (student's question) source of the recipes
+  - top of google search site
+- (student's question) how do you find which steps/ingredients can be removed?
+  - Input multiple recipes' ingredients and find the stuff that do not overlap? (need a lot of data)
+  - how to implement the important/unimportant step division: compare conventional recipes, or use the knowledge about cooking.
 - provide the importance(necessary/may skip or revise) of each step along with the recipe?
-
 - for non-necessary ingredients, could we remove the ingredient modify function, and just show the "recipe" amount  in proportion to the necessary ingredient amount? (Because mushrooms/bacon/etc. in pasta is really about putting as much as you want, especially when you're eating alone. I think it would make the algorithm simpler and confuse the user less with fewer numbers to consider putting in.)
 - Plus could we add a '±' image to some ingredients like salt? (To indicate that you can change it to your preference) Or would it increase confusion?
 - And a slot for alternatives to common ingredients/cooking tools could help... I think. 
