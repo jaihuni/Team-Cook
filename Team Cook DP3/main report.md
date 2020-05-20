@@ -171,5 +171,5 @@ to (TA/Eunyoung)  - minimum estimated time mentioned in the soultion 4 of highly
 - provide the importance(necessary/may skip or revise) of each step along with the recipe?
 
 - for non-necessary ingredients, could we remove the ingredient modify function, and just show the "recipe" amount  in proportion to the necessary ingredient amount? (Because mushrooms/bacon/etc. in pasta is really about putting as much as you want, especially when you're eating alone. I think it would make the algorithm simpler and confuse the user less with fewer numbers to consider putting in.)
-- Plus could we add a ![img](file:///C:/Users/나연/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png) image to some ingredients like salt? (To indicate that you can change it to your preference) Or would it increase confusion?
+- Plus could we add a '±' image to some ingredients like salt? (To indicate that you can change it to your preference) Or would it increase confusion?
 - And a slot for alternatives to common ingredients/cooking tools could help... I think. 
