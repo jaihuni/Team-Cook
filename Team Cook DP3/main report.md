@@ -64,25 +64,25 @@ By dragging the slide button of estimated time, user can control the time requir
 
 #### Recipe Suggestion
 
-1. **Couldn't identify the ingredient names at a glance.** (P1) (High)
-2. **Had trouble identifying the cuisine from the recipe name.** (P2, P3) (High)
-3. Unsure what to do before reading the instruction. (P1, P4) (Medium)
-4. Checkboxes in the Ingredients column confused the user. (P2, P4) (Medium)
-5. Unchanged checkboxes made the user uncertain about whether or not they chose correctly. (P1) (Low)
+1. **Couldn't identify the ingredient names at a glance.** (P1) (High, efficient)
+2. **Had trouble identifying the cuisine from the recipe name.** (P2, P3) (High, efficient)
+3. Unsure what to do before reading the instruction. (P1, P4) (Medium, learnability)
+4. Checkboxes in the Ingredients column confused the user. (P2, P4) (Medium, learnability)
+5. Unchanged checkboxes made the user uncertain about whether or not they chose correctly. (P1) (Low, safety)
 
 #### Recipe Amount Control
 
-1. Unclear to user if one can edit the ingredient amount. (P1) (Medium)
-2. Wanted a recipe for certain number of people. (P1, P4) (Medium)
-3. Meaning of the "Modify amount" button was vague. (P1, P2) (Low)
-4. Found the writing in small layout difficult while changing the amount of ingredients one already had. (P2) (Low)
-5. Some ingredient amounts were hard for the user to estimate; the units of the ingredients were unfamiliar. (P3) (Low)
+1. Unclear to user if one can edit the ingredient amount. (P1) (Medium, learnability)
+2. Wanted a recipe for certain number of people. (P1, P4) (Medium, efficient)
+3. Meaning of the "Modify amount" button was vague. (P1, P2) (Low, learnability)
+4. Found the writing in small layout difficult while changing the amount of ingredients one already had. (P2) (Low, efficient)
+5. Some ingredient amounts were hard for the user to estimate; the units of the ingredients were unfamiliar. (P3) (Low, efficient)
 
 #### Editing Recipe Steps
 
-1. **Unsure about what the checkboxes left of the instructions do.** (P1, P2) (High)
-2. **Unsure if the user can move the "Estimated time" tab.** (P4) (High)
-3. Cannot categorize steps into important and unimportant, active and passive. (P3) (Medium)
+1. **Unsure about what the checkboxes left of the instructions do.** (P1, P2) (High, learnability)
+2. **Unsure if the user can move the "Estimated time" tab.** (P4) (High, learnability)
+3. Cannot categorize steps into important and unimportant, active and passive. (P3) (Medium, efficient)
 
 
 
@@ -134,7 +134,14 @@ By dragging the slide button of estimated time, user can control the time requir
 
 ## Studio Reflections
 
+- Advice
+
 (TA/Eunyoung) Be prepared to the question on the ‘data’ and ‘algorithm’ part which are necessary to your system. You dont’ have to get/implement that but you should be able to explain why you assume something or use something. 
+
+
+
+#### Question or Suggestion
+
 (TA/Eunyoung) How much modification of a recipe is allowed? For example, it is possible that I say I want to make a pizza in 10 minutes? → So it’s basically a question about how the system communicate w/ user on what is possible or not, and what is the consequence of the modification.
 (Self-Chef/ Hyejin) Actually, there are already some services which suggest possible recipes using specific ingredients, so It’d be better if you make more ‘special points’ in your service! For example, you can refer to this page (https://haemukja.com/refrigerator) or some apps! <-wow
 (Beagles/Jungwon) What if you include tools?(Oven, Wok, etc) for cooking when providing recipe recommendation? not only the ingredients.
@@ -145,9 +152,9 @@ By dragging the slide button of estimated time, user can control the time requir
 
    - Solution or Opinion
 
-(TA/Eunyoung)  - minimum estimated time mentioned in the soultion 4 of highly critical problems (& make it red font?)
+(TA/Eunyoung)  - minimum estimated time mentioned in the solution 4 of highly critical problems (& make it red font?)
 
-(Self-Chef/ Hyejin) - Yes, the service is looks like our service about recommend meal from ingredients. However, it just suggested recipes depending on kinds of ingredients and meals. Our service suggested recipe depending on not just kinds, but also amount of ingredients.
+(Self-Chef/ Hyejin) - Yes, the service is looks like our service about recommend meal from ingredients. However, it just suggested recipes depending on kinds of ingredients and meals. Our service suggested recipe depending on not just kinds, but also amount of ingredients. In addition, our recipe 
 
 (Beagles/Jungwon) - good idea; We can provide the necessary tools above the recipe.
 
@@ -157,19 +164,24 @@ By dragging the slide button of estimated time, user can control the time requir
 
 
 
-#### memos from Tuesday's studio
+#### Memos from Tuesday's studio
 
 - (student's question) add user's preference --> I think letting the user put in the ingredients they want will mostly solve the problem; aren't they trying to make food that they want to eat?
 
-- (TA's question) why do self-boarding students have trouble following conventional recipes? --> Time, cooking tools, ingredients (they can't put much effort into cooking - a friend of mine one said that lectures and assignments are the biggest hazards to cooking)
+- (TA's question) why do self-boarding students have trouble following conventional recipes? --> Time, cooking tools, ingredients (they can't put much effort into cooking - a friend of one of team said that lectures and assignments are the biggest hazards to cooking)
 
 - (student's question) source of the recipes --> top of google search site. This is answer about source of recipes which used in lo-fi prototype.
 
 - (student's question) how do you find which steps/ingredients can be removed? --> Input multiple recipes' ingredients and find the stuff that do not overlap? (need a lot of data)
-  - how to implement the important/unimportant step division: any ideas?
+  - how to implement the important/unimportant step division: One of method to divide step division is growable recipe suggestion algorithm. At first, the algorithm can distinguish clearly unimportant step like decoration steps such as put parsley.  However, user can review about the recipe and check step that user think it important when cook is finished. If a considerable amount of data is collected, then the recipe can suggest about removing another unimportant steps the algorithm think.
+
+
+
+
+##### Other discussion topic
 
 - provide the importance(necessary/may skip or revise) of each step along with the recipe?
 
 - for non-necessary ingredients, could we remove the ingredient modify function, and just show the "recipe" amount  in proportion to the necessary ingredient amount? (Because mushrooms/bacon/etc. in pasta is really about putting as much as you want, especially when you're eating alone. I think it would make the algorithm simpler and confuse the user less with fewer numbers to consider putting in.)
 - Plus could we add a '±' image to some ingredients like salt? (To indicate that you can change it to your preference) Or would it increase confusion?
-- And a slot for alternatives to common ingredients/cooking tools could help... I think. 
+- And a slot for alternatives to common ingredients/cooking tools could help. 
