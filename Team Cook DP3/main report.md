@@ -144,36 +144,29 @@ By dragging the slide button of estimated time, user can control the time requir
 
 ### Advice
 
-(TA/Eunyoung) Be prepared to the question on the ‘data’ and ‘algorithm’ part which are necessary to your system. You dont’ have to get/implement that but you should be able to explain why you assume something or use something. 
+* (TA/Eunyoung) Be prepared to the question on the ‘data’ and ‘algorithm’ part which are necessary to your system. You dont’ have to get/implement that but you should be able to explain why you assume something or use something. 
 
 
 
 ### Question or Suggestion
 
-(TA/Eunyoung) How much modification of a recipe is allowed? For example, it is possible that I say I want to make a pizza in 10 minutes? → So it’s basically a question about how the system communicate w/ user on what is possible or not, and what is the consequence of the modification.
+* (TA/Eunyoung) How much modification of a recipe is allowed? For example, it is possible that I say I want to make a pizza in 10 minutes? → So it’s basically a question about how the system communicate w/ user on what is possible or not, and what is the consequence of the modification.
+  * Minimum estimated time mentioned in the improvement ideas could solve the problem.
 
-> Minimum estimated time mentioned in the improvement ideas could solve the problem.
+* (Self-Chef/ Hyejin) Actually, there are already some services which suggest possible recipes using specific ingredients, so It’d be better if you make more ‘special points’ in your service! For example, you can refer to this page (https://haemukja.com/refrigerator) or some apps! <-wow
+  * Yes, the service is similar with our service in terms of recommending meals from ingredients. However, it is just suggesting recipes depending on kinds of ingredients and meals. Our service suggest recipe depending on not only kinds, but also amount of ingredients. In addition, the point that our recipe is fluid about ingredients or steps is another difference, too.
 
-(Self-Chef/ Hyejin) Actually, there are already some services which suggest possible recipes using specific ingredients, so It’d be better if you make more ‘special points’ in your service! For example, you can refer to this page (https://haemukja.com/refrigerator) or some apps! <-wow
-
-> Yes, the service is similar with our service in terms of recommending meals from ingredients. However, it is just suggesting recipes depending on kinds of ingredients and meals. Our service suggest recipe depending on not only kinds, but also amount of ingredients. In addition, the point that our recipe is fluid about ingredients or steps is another difference, too.
-
-(Beagles/Jungwon) What if you include tools?(Oven, Wok, etc) for cooking when providing recipe recommendation? not only the ingredients.
-
-> Good idea; We could provide the necessary tools above the recipe.
-
-(NYTM/Yoonjeong) What if make user can add or revise the recipes and ingredients?
-
-> We could add a rewrite function, and save that to the user's data and add a "favorite recipe" slot as well so users can store recipes. Providing a way for users to share their revisions or contribute to the central database would also be a good idea, but I don't think it's something we should initially focus on; it's far from the key function.
-
-(Beagles/Woojin) What if difficulties of recipes are also provided?
-
-> Good idea; We could provide a difficulty scale next to the recipe title.
+* (Beagles/Jungwon) What if you include tools?(Oven, Wok, etc) for cooking when providing recipe recommendation? not only the ingredients.
+  * Good idea; We could provide the necessary tools above the recipe.
+* (NYTM/Yoonjeong) What if make user can add or revise the recipes and ingredients?
+  * We could add a rewrite function, and save that to the user's data and add a "favorite recipe" slot as well so users can store recipes. Providing a way for users to share their revisions or contribute to the central database would also be a good idea, but I don't think it's something we should initially focus on; it's far from the key function.
+* (Beagles/Woojin) What if difficulties of recipes are also provided?
+  * Good idea; We could provide a difficulty scale next to the recipe title.
 
 ### Memos from Tuesday's studio
 
 - (student's question) add user's preference
-  - I think letting the user put in the ingredients they want will mostly solve the problem; aren't they trying to make food that they want to eat?
+  - I think letting the user put in the ingredients they want will mostly solve the problem; aren't they trying to make food that they want to eat? Maybe we can add a history feature, or make users can search for the food they want.
 - (TA's question) why do self-boarding students have trouble following conventional recipes?
   - Time, cooking tools, ingredients (they can't put much effort into cooking - a friend of one of team said that lectures and assignments are the biggest hazards to cooking)
 - (student's question) source of the recipes
@@ -185,7 +178,7 @@ By dragging the slide button of estimated time, user can control the time requir
 
 
 
-#### Other discussion topic
+### Other discussion topic
 
 - provide the importance(necessary/may skip or revise) of each step along with the recipe?
 - for non-necessary ingredients, could we remove the ingredient modify function, and just show the "recipe" amount  in proportion to the necessary ingredient amount? (Because mushrooms/bacon/etc. in pasta is really about putting as much as you want, especially when you're eating alone. I think it would make the algorithm simpler and confuse the user less with fewer numbers to consider putting in.)
