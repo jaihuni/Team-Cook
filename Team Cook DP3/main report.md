@@ -25,8 +25,8 @@ We chose to use ***Figma*** for the prototyping tool. ***Figma*** is simple but 
 
 ### Design Choices
 We chose NOT to implement
-1. Algorithms for recipe suggestion and amount calculation, because Wizard-of-Oz can replace it.
-2. Text Input of amount, because it is hard to implement in the prototyping tool.
+1. Algorithms for the recipe suggestion, the amount calculation, and editing the recipe. Response is hard-coded and always same. We provided a fixed suggestion and recipe based on the user scenario, and give testers the scenario instead of there real needs.
+2. Text input of amount, because it is hard to implement in the prototyping tool.
 
 
 ### Representative Screenshots
@@ -48,8 +48,6 @@ The amount of ingredients of the recipe is changed with proper ratio of ingredie
 <img src="/img/Screenshot6.PNG" width="800" height="400">
 By dragging the slide button of estimated time, user can control the time required for cooking. With the time, recipe is simplified by skipping or combining some steps.
 
-
-
 ## Observations
 
 ### Participants
@@ -66,8 +64,8 @@ By dragging the slide button of estimated time, user can control the time requir
 
 #### Recipe Suggestion
 
-1. Couldn't identify the ingredient names at a glance. (P1) (High)
-2. Had trouble identifying the cuisine from the recipe name. (P2, P3) (High)
+1. **Couldn't identify the ingredient names at a glance.** (P1) (High)
+2. **Had trouble identifying the cuisine from the recipe name.** (P2, P3) (High)
 3. Unsure what to do before reading the instruction. (P1, P4) (Medium)
 4. Checkboxes in the Ingredients column confused the user. (P2, P4) (Medium)
 5. Unchanged checkboxes made the user uncertain about whether or not they chose correctly. (P1) (Low)
@@ -82,8 +80,8 @@ By dragging the slide button of estimated time, user can control the time requir
 
 #### Editing Recipe Steps
 
-1. Unsure about what the checkboxes left of the instructions do. (P1, P2) (High)
-2. Unsure if the user can move the "Estimated time" tab. (P4) (High)
+1. **Unsure about what the checkboxes left of the instructions do.** (P1, P2) (High)
+2. **Unsure if the user can move the "Estimated time" tab.** (P4) (High)
 3. Cannot categorize steps into important and unimportant, active and passive. (P3) (Medium)
 
 
@@ -124,7 +122,7 @@ By dragging the slide button of estimated time, user can control the time requir
 #### Low Critical Problems
 
 1. Unchanged checkboxes made the user uncertain about whether or not they chose correctly. 
-   - 
+   - This was an image loading problem. Loading could be improved by using Unicode character, or SVG image.
 2. Meaning of the "Modify amount" button was vague.
    - Revise the "Input the Amount" popup screen. (Improvement idea for Medium Critical Problems 3)
 3. Found the writing in small layout difficult while changing the amount of ingredients one already had.
