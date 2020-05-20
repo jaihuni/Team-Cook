@@ -170,7 +170,7 @@ By dragging the slide button of estimated time, user can control the time requir
 
 > Good idea; We could provide a difficulty scale next to the recipe title.
 
-#### Memos from Tuesday's studio
+### Memos from Tuesday's studio
 
 - (student's question) add user's preference
   - I think letting the user put in the ingredients they want will mostly solve the problem; aren't they trying to make food that they want to eat?
@@ -185,7 +185,7 @@ By dragging the slide button of estimated time, user can control the time requir
 
 
 
-##### Other discussion topic
+#### Other discussion topic
 
 - provide the importance(necessary/may skip or revise) of each step along with the recipe?
 - for non-necessary ingredients, could we remove the ingredient modify function, and just show the "recipe" amount  in proportion to the necessary ingredient amount? (Because mushrooms/bacon/etc. in pasta is really about putting as much as you want, especially when you're eating alone. I think it would make the algorithm simpler and confuse the user less with fewer numbers to consider putting in.)
