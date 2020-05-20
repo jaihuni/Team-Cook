@@ -54,10 +54,10 @@ By dragging the slide button of estimated time, user can control the time requir
 
 ### Participants
 
-| P1                                                           | P2                                                           |
+| **P1** | **P2** |
 | ------------------------------------------------------------ | :----------------------------------------------------------- |
 | - KAIST student, 3rd year <br />- Began living alone this semester <br />- Novice cooker <br />- Frequently tries new recipes <br />- Friend of a teammate | - Non-KAIST student, 3rd year<br />- Began living alone one semester ago<br />- Novice cooker<br />- Usually cooks soup with ingredients in moderation |
-| **P3**                                                       | **P4**                                                       |
+| **P3** | **P4** |
 | - Non-KAIST student, 1st year<br />- Began living alone this year<br />- Rarely cooks at all<br />- Friend of a teammate | - Non-KAIST student, 3rd year<br />- Lived alone for one semester last year<br />- Experienced cooker<br />- Friend of a teammate |
 
 
