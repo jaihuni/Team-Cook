@@ -53,7 +53,7 @@ By dragging the slide button of estimated time, user can control the time requir
 ### Participants
 
 | **P1** | **P2** |
-| :------------------------------------------------------------ | :----------------------------------------------------------- |
+| :----- | :----- |
 | - KAIST student, 3rd year <br />- Began living alone this semester <br />- Novice cooker <br />- Frequently tries new recipes <br />- Friend of a teammate | - Non-KAIST student, 3rd year<br />- Began living alone one semester ago<br />- Novice cooker<br />- Usually cooks soup with ingredients in moderation |
 | **P3** | **P4** |
 | - Non-KAIST student, 1st year<br />- Began living alone this year<br />- Rarely cooks at all<br />- Friend of a teammate | - Non-KAIST student, 3rd year<br />- Lived alone for one semester last year<br />- Experienced cooker<br />- Friend of a teammate |
@@ -115,7 +115,7 @@ By dragging the slide button of estimated time, user can control the time requir
 4. Wanted a recipe for certain number of people.
    - Add this information in brackets next to the "Input the Amount" popup's title.
 5. Cannot categorize steps into important and unimportant, active and passive.
-   - 
+   - Add tag about unimportant or passive.
 
 
 
@@ -143,25 +143,27 @@ By dragging the slide button of estimated time, user can control the time requir
 
 
 
-   - Solution
+   - Solution or Opinion
 
-to (TA/Eunyoung)  - minimum estimated time mentioned in the soultion 4 of highly critical problems (& make it red font?)
+(TA/Eunyoung)  - minimum estimated time mentioned in the soultion 4 of highly critical problems (& make it red font?)
 
-(Beagles/Jungwon) - good idea; provide the necessary tools above the recipe.
+(Self-Chef/ Hyejin) - Yes, the service is looks like our service about recommend meal from ingredients. However, it just suggested recipes depending on kinds of ingredients and meals. Our service suggested recipe depending on not just kinds, but also amount of ingredients.
 
-(NYTM/Yoonjeong) - We could add a rewrite function, and save that to the user's data? and add a "favorite recipe" slot as well so users can store recipes. Providing a way for users to share their revisions or contribute to the central database would also be a good idea, but I don't think it's something we should initially focus on; it's far from the key function.
+(Beagles/Jungwon) - good idea; We can provide the necessary tools above the recipe.
 
-(Beagles/Woojin) - good idea; we can provide a difficulty meter next to the recipe title
+(NYTM/Yoonjeong) - We could add a rewrite function, and save that to the user's data and add a "favorite recipe" slot as well so users can store recipes. Providing a way for users to share their revisions or contribute to the central database would also be a good idea, but I don't think it's something we should initially focus on; it's far from the key function.
+
+(Beagles/Woojin) - good idea; We can provide a difficulty meter next to the recipe title.
 
 
 
-(memos from yesterday's studio)
+#### memos from Tuesday's studio
 
 - (student's question) add user's preference --> I think letting the user put in the ingredients they want will mostly solve the problem; aren't they trying to make food that they want to eat?
 
 - (TA's question) why do self-boarding students have trouble following conventional recipes? --> Time, cooking tools, ingredients (they can't put much effort into cooking - a friend of mine one said that lectures and assignments are the biggest hazards to cooking)
 
-- (student's question) source of the recipes --> top of google search site
+- (student's question) source of the recipes --> top of google search site. This is answer about source of recipes which used in lo-fi prototype.
 
 - (student's question) how do you find which steps/ingredients can be removed? --> Input multiple recipes' ingredients and find the stuff that do not overlap? (need a lot of data)
   - how to implement the important/unimportant step division: any ideas?
