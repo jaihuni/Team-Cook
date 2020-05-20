@@ -30,22 +30,22 @@ We chose NOT to implement
 
 
 ### Representative Screenshots
-<img src="./img/screenshot1.png" width="600" height="400">
+<img src="/img/screenshot1.png" width="600" height="350">
 User can check ingredients that user wants and get suggestion from the selection.
 
-<img src="./img/screenshot2.png" width="300" height="300">
+<img src="/img/screenshot2.png" width="400" height="300">
 Also there are some pre-made sets for convenience.
 
-<img src="./img/screenshot3.png" width="600" height="400">
+<img src="/img/screenshot3.png" width="600" height="400">
 Recipes have Ingredients part and Steps part.
 
-<img src="./img/screenshot4.png" width="300" height="200">
+<img src="/img/screenshot4.png" width="400" height="200">
 User can input the amounts of ingredients that user wants to use.
 
-<img src="./img/screenshot5.png" width="600" height="200">
+<img src="/img/screenshot5.png" width="700" height="200">
 The amount of ingredients of the recipe is changed with proper ratio of ingredients based by user's input. Also, the food amount is changed from 2 people to 4 people.
 
-<img src="./img/screenshot6.png" width="600" height="400">
+<img src="/img/screenshot6.png" width="800" height="400">
 By dragging the slide button of estimated time, user can control the time required for cooking. With the time, recipe is simplified by skipping or combining some steps.
 
 
