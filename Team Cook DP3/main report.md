@@ -143,9 +143,13 @@ By dragging the slide button of estimated time, user can control the time requir
 #### Question or Suggestion
 
 (TA/Eunyoung) How much modification of a recipe is allowed? For example, it is possible that I say I want to make a pizza in 10 minutes? → So it’s basically a question about how the system communicate w/ user on what is possible or not, and what is the consequence of the modification.
+
 (Self-Chef/ Hyejin) Actually, there are already some services which suggest possible recipes using specific ingredients, so It’d be better if you make more ‘special points’ in your service! For example, you can refer to this page (https://haemukja.com/refrigerator) or some apps! <-wow
+
 (Beagles/Jungwon) What if you include tools?(Oven, Wok, etc) for cooking when providing recipe recommendation? not only the ingredients.
+
 (NYTM/Yoonjeong) What if make user can add or revise the recipes and ingredients?
+
 (Beagles/Woojin) What if difficulties of recipes are also provided?
 
 
