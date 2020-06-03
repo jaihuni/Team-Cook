@@ -1,0 +1,39 @@
+body {
+    background-color: #eee;
+}
+
+#title{
+    font-size: x-large;
+    font-family: 'Roboto';
+    color: white;
+    background-color: #54ADFF;
+    padding: 15px;
+    padding-left: 25px;
+}
+
+#container{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+}
+
+#menu{
+    font-family: 'Roboto';
+    font-size: large;
+    margin-left: 25px;
+    margin-top:  25px;
+    margin-right: 25px;
+    width: max-content;
+    float: left;
+}
+
+#box{
+    font-family: 'Roboto';
+    background-color: white;
+    margin-top:  25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: right;
+    width: 85%;
+    min-height: 80%;
+}
