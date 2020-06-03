@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kim Jaehun 20180146</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />  <link href="./capital_game.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Your HTML here-->
+
+    <div id="title">Do you know the capital of this country?</div>
+    <iframe
+      id="map"
+      width="600"
+      height="450"
+      frameborder="0" style="border:0"
+      allowfullscreen
+    ></iframe>
+      
+    <table id="resultTable">
+      <tr>
+        <th>
+          Country
+        </th>
+        <th>
+          Capital
+        </th>
+        <th>
+          Answer
+        </th>
+      </tr>
+      <tr>
+        <td id="pr2__question" class="country"></td>
+        <td>
+          <input id="pr2__answer" type="text" autofocus>
+        </td>
+        <td>
+          <button id="pr2__submit">See Answer</button>
+        </td>
+      </tr>
+      <tr>
+        <td class="clear" colspan="3">
+          <input id="All" class="chk" name="chk" type="radio" value="All" checked>All
+          <input id="correct" class="chk" name="chk" type="radio" value="Correct Only">Correct Only
+          <input id="incorrect" class="chk" name="chk" type="radio" value="Wrong Only">Wrong Only
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <button id="pr3__undo">Undo</button>
+          <button id="pr3__clear">Clear</button>
+          <button id="pr3__restart">Restart</button>
+        </td>
+      </tr>
+
+      <tr id="default">
+        <td></td>
+        <td>
+          No entry to show
+        </td>
+        <td></td>
+      </tr>
+
+
+    </table>
+
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+    <script src="./capital_game.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase.js"></script>
+  </body>
+</html>
