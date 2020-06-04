@@ -3,7 +3,7 @@ $(document).ready( function() {
         $("#box").load("suggest.html");
     });
 	
-    $("#suggest").click(function() {
+    $("#recipes").click(function() {
         $("#box").load("recipes.html");
     });
 	
