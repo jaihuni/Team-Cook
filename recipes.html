@@ -1,8 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <title>Team Cook Hi-Fi prototype</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="./recipes.css" rel="stylesheet" />
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="semantic/semantic.js"></script>
   </head>
   <body>
-bbbbbbbbbbbbb
+    <!-- Script -->
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase.js"></script>
+    <script src="./recipes.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase.js"></script>
+
+    <!-- Main -->
+    <div class="back_square up">
+      <div class="title">Ingredients</div>
+      <table id="ingredients">
+        <tr id="head">
+          <th id="necessary">Necessary</th>
+          <th id="non-necessary">Non-Necessary</th>
+          <th id="amount">Amount</th>
+        </tr>
+        <tr>
+          <th>Spaghetthi Noodle 250g</th>
+          <th>Mushroom 5</th>
+          <th>2 people</th>
+        </tr>
+        <tr>
+          <th>Tomato Sauce 1 bottle</th>
+          <th>Cherry Tomato 10</th>
+        </tr>
+        <tr>
+          <th>Onion 1/2</th>
+          <th>Bacon 110g</th>
+        </tr>
+        <tr>
+          <th>Garlic 10 pieces</th>
+          <th>Sausage 2</th>
+        </tr>
+        <tr>
+          <th>Salt 1/2 tea spoon</th>
+          <th>Broccoli 1</th>
+        </tr>
+        <tr>
+          <th>Olive 1 tea spoon</th>
+        </tr>
+      </table>
+      <button id="modify_amount" style="float: right;">Modify Amount</button>
+    </div>
+    <div class="back_square down">
+      <div class="title">Steps</div>
+    </div>
+  
+  
+    
   </body>
 </html>
