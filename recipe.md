@@ -27,13 +27,13 @@ Broccoli 1
 3. Put 250g of spaghetti noodle to the pot. (Necessary)
 4. Boil the spaghetti noodle for 8 minutes. (Necessary)
 5. Scoop the spaghetti noodle out, and remove the water. (Necessary)
-6. Chop 1 bunch of broccoli, and blanch with salt water.
-7. Chop cherry tomatoes, garlics, mushrooms, bacon, onions.
-8. Put a pan on a heat and add 1 tea spoon of olive oil.
-9. Stir fry  garlics and onions until onions become translucent.
-10. Stir fry bacon until it shrinks. 
-11. Add tomato sauce, cherry tomatoes, mushrooms, and broccoli, then stir them.
-12. Stir the spaghetti noodle together. 
+6. Chop 1 bunch of broccoli, and blanch with salt water. (Non-Necessary)
+7. Chop cherry tomatoes, garlics, mushrooms, bacon, onions. (Non-Necessary(Garlic, Onion은 Necessary 재료라 일단 체크박스는 두되 체크를 해제하면 양파 마늘 제외한 재료만 회색이나 취소선이 되는걸로 해야 할 것 같습니다))
+8. Put a pan on a heat and add 1 tea spoon of olive oil. (Necessary)
+9. Stir fry  garlics and onions until onions become translucent. (Necessary)
+10. Stir fry bacon until it shrinks.  (Non-Necessary)
+11. Add tomato sauce, cherry tomatoes, mushrooms, and broccoli, then stir them. (Non-Necessary(여기도 마찬가지로 토마토 소스 이외는 선택 재료라 Step7과 같은 방식으로 해야 할 것 같습니다))
+12. Stir the spaghetti noodle together. (Necessary)
 
 
 # Top Blade Steak
