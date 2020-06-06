@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />  <link href="./main_page.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="semantic/semantic.js"></script>
+    -->
   </head>
   <body>
     <!-- Script -->
     <link href="./recipes.css" rel="stylesheet">
     <script src="./recipes.js"></script>
+
+    <!--
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    -->
 
     <!-- Main -->
     <div class="back_square up">
@@ -13,32 +29,56 @@
       <table id="ingredients">
         <tr id="head">
           <th id="necessary">Necessary</th>
+          <th id="necessary_amount"></th>
           <th id="non-necessary">Non-Necessary</th>
-          <th id="amount">Amount</th>
+          <th id="non-necessary_amount"></th>
+          <th id="amount">Amount of the Food</th>
         </tr>
         <tr>
-          <th>Spaghetthi Noodle 250g</th>
-          <th>Mushroom 5</th>
-          <th>2 people</th>
+          <td>Spaghetthi Noodle(g)</td>
+          <td><input type="text" name="noodle" value="250" size=5></td>
+          <td>Mushroom</td>
+          <td><input type="text" name="mushroom" value="4" size=5></td>
+          <td>
+            <select id="n-people">
+              <option value="1">1 people</option>
+              <option value="2" selected="true">2 people</option>
+              <option value="3">3 people</option>
+              <option value="4">4 people</option>
+              <option value="5">5 people</option>
+              <option value="6">6 people</option>
+              <option value="7">7 people</option>
+              <option value="8">8 people</option>
+            </select>
+          </td>
         </tr>
         <tr>
-          <th>Tomato Sauce 1 bottle</th>
-          <th>Cherry Tomato 10</th>
+          <td>Tomato Sauce(g)</td>
+          <td><input type="text" name="sauce" value="250" size=5></td>
+          <td>Cherry Tomato</td>
+          <td><input type="text" name="tomato" value="10" size=5></td>
         </tr>
         <tr>
-          <th>Onion 1/2</th>
-          <th>Bacon 110g</th>
+          <td>Onion</td>
+          <td><input type="text" name="onion" value="0.5" size=5></td>
+          <td>Bacon(g)</td>
+          <td><input type="text" name="bacon" value="110" size=5></td>
         </tr>
         <tr>
-          <th>Garlic 10 pieces</th>
-          <th>Sausage 2</th>
+          <td>Garlic(pieces)</td>
+          <td><input type="text" name="garlic" value="10" size=5></td>
+          <td>Sausage</td>
+          <td><input type="text" name="sausage" value="2" size=5></td>
         </tr>
         <tr>
-          <th>Salt 1/2 tea spoon</th>
-          <th>Broccoli 1</th>
+          <td>Salt(tea spoon)</td>
+          <td><input type="text" name="salt" value="0.5" size=5></td>
+          <td>Broccoli</td>
+          <td><input type="text" name="broccoli" value="2" size=5></td>
         </tr>
         <tr>
-          <th>Olive 1 tea spoon</th>
+          <td>Olive Oil(tea spoon)</td>
+          <td><input type="text" name="olive" value="1" size=5></td>
         </tr>
       </table>
       <button id="modify_amount" style="float: right;">Modify Amount</button>
