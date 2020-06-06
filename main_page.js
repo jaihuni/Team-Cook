@@ -1,10 +1,10 @@
 $(document).ready( function() {
-    $("#suggest").click(function() {
+    $(document).on('click', '#suggest',function() {
         $("#box").load("suggest.html");
         $("#left").text("Recipe Suggestion");
     });
 	
-    $("#recipes").click(function() {
+    $(document).on('click', '#recipes',function() {
         $("#box").load("recipes.html");
     });
 	
