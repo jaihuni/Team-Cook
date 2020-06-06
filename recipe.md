@@ -9,7 +9,7 @@ Tomato Sauce 1 bottle
 Onion 1/2
 Garlic 10 pieces
 Salt 1/2 tea spoon
-Olive 1 tea spoon
+Olive Oil 1 tea spoon
 
 #####  Non-Necessary
 Mushroom 5
