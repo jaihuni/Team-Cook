@@ -74,7 +74,6 @@ $(document).ready(function() {
 
     $('#n-people').change(function() {
         var num = $(this).children("option:selected").val();
-        console.log(num);
 
         $('input[name=noodle]').val(num * noodle_unit);
         $('input[name=mushroom]').val(num * mushroom_unit);
