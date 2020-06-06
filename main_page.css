@@ -58,7 +58,8 @@ button[id="suggest"]{
     width: auto;
     height: 100%;
     border: none;
-    background: none;
+    background: white;
+    cursor: pointer;
 }
 
 button[id="recipes"]{
@@ -67,7 +68,8 @@ button[id="recipes"]{
     width: auto;
     height: 100%;
     border: none;
-    background: none;
+    background: white;
+    cursor: pointer;
 }
 
 #menuButton{
