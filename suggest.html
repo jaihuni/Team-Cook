@@ -1,8 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-aaaaaaaaaaaaaaaaaaa
-  </body>
+<head>
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="./main_page.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="semantic/semantic.js"></script>
+</head>
+<body>
+    <link href="./suggest.css" rel="stylesheet">
+    <script src="./suggest.js"></script>
+    <h1 font-size: 30px>Recipe Suggestion</h1>
+    <table id="Search">
+        <tr>
+            <th><b></b></th>
+            <th></th>
+            <th></th>
+
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input id="search_input" type="text" placeholder="Ingredient" />
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="pasta" />bacon</td>
+            <td><input type="checkbox" name="pasta" />cheese</td>
+            <td><input type="checkbox" name="pasta" />shrimp</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox" name="pasta" />spaghetti noodles</td>
+            <td><input type="checkbox" name="pasta" />lettuce</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="pasta" />onion</td>
+            <td><input type="checkbox" name="pasta" />garlic</td>
+        </tr>
+    </table>
+
+    <table id="list">
+        <tr>
+            <th colspan="2"><b>Ingredients</b></th>
+        </tr>
+        <tr>
+            <td><button id="add_set">Add Set</button></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>looloo</td>
+            <td>lala</td>
+        </tr>
+    </table>
+
+    <p></p>
+    <p></p>
+    <button onclick="document.location = 'index.html'">Back Home</button>
+</body>
 </html>
