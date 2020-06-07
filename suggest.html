@@ -20,9 +20,10 @@
 
         </tr>
         <tr>
-            <td colspan="3">
-                <input id="search_input" type="text" placeholder="Ingredient" />
+            <td colspan="2">
+                <input id="searchIng_input" type="text" placeholder="Search" />
             </td>
+            <td><button id="searchIng_enter">GO!</button></td>
         </tr>
         <tr>
             <td><input type="checkbox" name="pasta" id="bacon" />bacon</td>
@@ -52,6 +53,60 @@
     </table>
 
     <button id="suggestR">Suggest Recipe</button>
+
+    <div class="modal" id="set-screen">
+        <div class="modal-content">
+            <span class="close" id="set_close">&times;</span>
+            <!--<h2>SET Selection</h2>-->
+            <table id="setTable">
+                <tr><th colspan="3">SET Selection</th></tr>
+                <tr>
+                    <td>SET 1</td>
+                    <td>lettuce, onions, garlic, green onions, parsly, pepper</td>
+                    <td><button name="SI" id="SET 1">add to ingredients</button></td>
+                </tr>
+                <tr>
+                    <td>SET SAUCE</td>
+                    <td>cream sauce, teriyaki sauce, soy sauce, red pepper paste</td>
+                    <td><button name="SI" id="SET SAUCE">add to ingredients</button></td>
+                </tr>
+                <tr>
+                    <td>RICE</td>
+                    <td>white rice, brown rice, red beans</td>
+                    <td><button name="SI" id="RICE">add to ingredients</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="text" id="new_set_name" placeholder ="SET NAME" value="SET NAME"/>
+                        <input type="text" id="new_set" placeholder="SET OF INGREDIENTS" />
+                        <button id="add_setM">ADD SET</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal" id="menus">
+        <div class="modal-content">
+            <span class="close" id="menu_close">&times;</span>
+            <table id="menuTable">
+                <tr><th colspan="2">POSSIBLE MENUS</th></tr>
+                <tr>
+                    <td>tomato spaghetti</td>
+                    <td><button name="MD">CHOOSE THIS</button></td>
+                </tr>
+                <tr>
+                    <td>cream spaghetti</td>
+                    <td><button name="MD">CHOOSE THIS</button></td>
+                </tr>
+                <tr>
+                    <td>phat thai</td>
+                    <td><button name="MD">CHOOSE THIS</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
     <p></p>
     <!----><button onclick="document.location = 'index.html'">Back Home</button>
     <!----><p id="test">test</p>
