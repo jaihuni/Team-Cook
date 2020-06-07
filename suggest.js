@@ -10,7 +10,7 @@ $(document).ready(function () {//show set-screen modal
     })
 });
 
-$(document).ready(function () {
+$(document).ready(function () { //checkboxes
     $('input[name="pasta"]').on("click", function () {
         var ingID = this.id;
         var oneIng = document.getElementById(ingID);
@@ -20,7 +20,6 @@ $(document).ready(function () {
         else {
             deleteIngredient(ingID);
         }
-        //alert('button clicked');
     });
 });
 
@@ -77,7 +76,7 @@ function deleteIngredient(ing) {
 }
 
 /* set-screen modal functions */
-$(document).ready(function () {
+$(document).ready(function () { //add new set
     var newSetName = document.getElementById("new_set_name");
     var newSet = document.getElementById("new_set");
     var addSet = document.getElementById("add_setM");
@@ -136,8 +135,7 @@ function addNewSet(name, ings) {
 }
 
 /* menus modal functions */
-
-$(document).ready(function () { //move to recipes.html
+$(document).ready(function () { //move to recipes.html (since what-to-make has been decided)
     $('button[name="MD"]').click(function () {
         window.location.href = "./recipes.html";
     })
