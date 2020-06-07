@@ -44,10 +44,11 @@ button[class="ui button"]{
 #half{
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 #halftwo{
+    margin-top: 5%;
     width: auto;
     height: 100%;
 }
