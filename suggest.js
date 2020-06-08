@@ -52,6 +52,11 @@ $(document).ready(function () { //add ingredient user typed in
         }
     }
 });
+$(document).ready(function () { //Enter
+    $('#clearI').click(function () {
+        clearIngredient();
+    });
+});
 
 //add, delete checkbox-ed ingredients
 function addIngredient(ing) {
@@ -73,6 +78,21 @@ function deleteIngredient(ing) {
     table.deleteRow(to);
     document.getElementById("test").innerHTML = to;
 
+}
+
+function clearIngredient() { //clear ingredient list
+    var table = document.getElementById("list");
+    var numRows = table.rows.length;
+    var i = numRows - 1;
+    while (i > 0) {
+        table.deleteRow(i);
+        i -= 1;
+    }
+    var lst = document.getElementsByName("pasta");
+    for (var j = 0; j < lst.length; j++) {
+        lst[j].checked = false;
+    }
+//    document.getElementById('test').innerHTML = lst;
 }
 
 /* set-screen modal functions */
@@ -107,7 +127,7 @@ $(document).ready(function () {
 $(document).ready(function () { //add SET to list of ingredients
     $('button[name="SI"]').click(function () {
         var setName = this.id;
-        //document.getElementById('test').innerHTML = "dkfaldkfhasf";
+        //document.getElementById('test').innerHTML = String(setName);
         addIngredient(setName);
         //and close the modal window (for now)
         var setSelect = document.getElementById("set-screen");
@@ -132,6 +152,12 @@ function addNewSet(name, ings) {
     btn.id = String(name);
     btn.innerHTML = "add to ingredients";
     cell2.appendChild(btn);
+
+    btn.onclick = function () {
+        addIngredient(String(name));
+        var setSelect = document.getElementById("set-screen");
+        setSelect.style.display = "none";
+    }
 }
 
 /* menus modal functions */

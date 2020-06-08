@@ -12,43 +12,52 @@
     <link href="./suggest.css" rel="stylesheet">
     <script src="./suggest.js"></script>
     <h1 font-size: 30px>Recipe Suggestion</h1>
-    <table id="Search">
-        <tr>
-            <th><b></b></th>
-            <th></th>
-            <th></th>
+    <div id="page">
+        <div id="tables" class="content">
+            <table id="Search">
+                <tr>
+                    <th><b></b></th>
+                    <th></th>
+                    <th></th>
 
-        </tr>
-        <tr>
-            <td colspan="2">
-                <input id="searchIng_input" type="text" placeholder="Search" />
-            </td>
-            <td><button id="searchIng_enter">GO!</button></td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" name="pasta" id="bacon" />bacon</td>
-            <td><input type="checkbox" name="pasta" id="cheese" />cheese</td>
-            <td><input type="checkbox" name="pasta" id="shrimp" />shrimp</td>
-        </tr>
-        <tr>
-            <td colspan="2"><input type="checkbox" name="pasta" id="spaghetti noodles" />spaghetti noodles</td>
-            <td><input type="checkbox" name="pasta" id="lettuce" />lettuce</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" name="pasta" id="onion" />onion</td>
-            <td><input type="checkbox" name="pasta" id="garlic" />garlic</td>
-        </tr>
-    </table>
-    <p></p>
-    <p></p>
-    <table id="list">
-        <tr>
-            <th><b>Ingredients</b></th>
-            <th><button id="add_set">Add Set</button></th>
-        </tr>
-    </table>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input id="searchIng_input" type="text" placeholder="Search" />
+                    </td>
+                    <td><button id="searchIng_enter">GO!</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button id="add_set">Add Set</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="pasta" id="bacon" />bacon</td>
+                    <td><input type="checkbox" name="pasta" id="cheese" />cheese</td>
+                    <td><input type="checkbox" name="pasta" id="shrimp" />shrimp</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" name="pasta" id="spaghetti noodles" />spaghetti noodles</td>
+                    <td><input type="checkbox" name="pasta" id="lettuce" />lettuce</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="pasta" id="onion" />onion</td>
+                    <td><input type="checkbox" name="pasta" id="garlic" />garlic</td>
+                </tr>
+            </table>
 
-    <button id="suggestR">Suggest Recipe</button>
+            <table id="list">
+                <tr>
+                    <th><b>Ingredients</b></th>
+                    <th><button id="clearI">Clear</button></th>
+                </tr>
+            </table>
+        </div>
+
+        <p></p>
+        <div id="rec" class="content">
+            <button id="suggestR">Suggest Recipe</button>
+        </div>
+    </div>
 
     <div class="modal" id="set-screen">
         <div class="modal-content">
@@ -73,7 +82,7 @@
                 </tr>
                 <tr>
                     <td colspan="3">
-                        <input type="text" id="new_set_name" placeholder ="SET NAME" value="SET NAME"/>
+                        <input type="text" id="new_set_name" placeholder="SET NAME" value="SET NAME" />
                         <input type="text" id="new_set" placeholder="SET OF INGREDIENTS" />
                         <button id="add_setM">ADD SET</button>
                     </td>
@@ -105,6 +114,6 @@
 
     <p></p>
     <!----><button onclick="document.location = 'index.html'">Back Home</button>
-    <!----><p id="test">test</p>
+    <!--<p id="test">test</p>-->
 </body>
 </html>
