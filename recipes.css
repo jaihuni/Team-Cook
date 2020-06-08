@@ -185,7 +185,9 @@ select {
 }
 
 #people{
+    font-size: x-large;
     float: left;
+    padding-left: 5px;
     width: fit-content;
 }
 
