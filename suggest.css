@@ -5,12 +5,10 @@ html, body {
     height: 100%;
 }
 
-.title {
-    font-family: 'Roboto';
-    font-size: xx-large;
-    font-weight: bold;
-    padding-top: 15px;
-    padding-left: 15px;
+#page{
+}
+.content{
+    display: inline-block;
 }
 
 
@@ -18,14 +16,33 @@ th, td {
     padding: 0px;
 }
 
+#Search {
+    float: left;
+    margin-right: 70px;
+}
 
-button[id="suggestR"]{
-    background-color: aquamarine;
+#list {
+    border: 1px solid black;
+    padding: 5px;
+    /*position: relative;*/
+    float: left;
+}
+
+#list th {
+    padding: 5px;
+}
+
+
+button[id="suggestR"] {
+    background-color: skyblue;
     border: none;
     color: white;
     padding: 15px 32px;
+    margin-left: 10px;
     text-align: center;
+    float: left;
 }
+
 
 /* The Modal (background) */
 .modal{

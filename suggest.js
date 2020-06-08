@@ -127,7 +127,7 @@ $(document).ready(function () {
 $(document).ready(function () { //add SET to list of ingredients
     $('button[name="SI"]').click(function () {
         var setName = this.id;
-        //document.getElementById('test').innerHTML = "dkfaldkfhasf";
+        //document.getElementById('test').innerHTML = String(setName);
         addIngredient(setName);
         //and close the modal window (for now)
         var setSelect = document.getElementById("set-screen");
@@ -152,6 +152,12 @@ function addNewSet(name, ings) {
     btn.id = String(name);
     btn.innerHTML = "add to ingredients";
     cell2.appendChild(btn);
+
+    btn.onclick = function () {
+        addIngredient(String(name));
+        var setSelect = document.getElementById("set-screen");
+        setSelect.style.display = "none";
+    }
 }
 
 /* menus modal functions */
