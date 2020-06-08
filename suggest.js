@@ -152,6 +152,7 @@ function addNewSet(name, ings) {
     var btn = document.createElement("button");
     btn.name = "SI";
     btn.id = String(name);
+    btn.setAttribute("class", "ui compact button");
     btn.innerHTML = "add to ingredients";
     cell2.appendChild(btn);
 

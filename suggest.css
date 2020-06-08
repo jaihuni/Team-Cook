@@ -3,17 +3,18 @@ html, body {
     overflow: auto;
     margin: 0;
     height: 100%;
+    font-size: medium;
+    font-family: 'Roboto';
 }
 
-#page{
-}
+
 .content{
     display: inline-block;
 }
 
 
 th, td {
-    padding: 0px;
+    padding: 5px;
 }
 
 #Search {
@@ -32,6 +33,15 @@ th, td {
     padding: 5px;
 }
 
+#page{
+    max-width: fit-content;
+}
+
+ 
+#rec{
+    width: 100%;
+}
+
 
 button[id="suggestR"] {
     background-color: skyblue;
@@ -40,7 +50,6 @@ button[id="suggestR"] {
     padding: 15px 32px;
     margin-left: 10px;
     text-align: center;
-    float: left;
 }
 
 
@@ -60,7 +69,8 @@ button[id="suggestR"] {
 }
 /* Modal Content */
 .modal-content{
-    background-color: lightgray;
+    background-color: #f9f9f9;
+    width: fit-content;
     margin: auto;
     padding: 20px;
     border: 1px solid dashed;
