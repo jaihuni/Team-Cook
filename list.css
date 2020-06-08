@@ -8,17 +8,6 @@
     height: fit-content;
 }
 
-#listfill{
-    margin-top: 55px;
-    box-sizing: border-box;
-    display: block;
-    position: absolute;
-    height: auto;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-}
 
 td{
     padding: 5px;
