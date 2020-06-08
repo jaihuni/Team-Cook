@@ -25,68 +25,70 @@
     <!-- Main -->
     <div class="back_square up">
       <div class="title">Ingredients</div>
-      <div id="table">
-      <table id="ingredients">
-        <tr id="head">
-          <th id="necessary">Necessary</th>
-          <th id="necessary_amount"></th>
-        </tr>
-        <tr>
-          <td>Spaghetthi Noodle(g)</td>
-          <td><input type="text" name="noodle" value="250" size=5></td>
-        </tr>
-        <tr>
-          <td>Tomato Sauce(g)</td>
-          <td><input type="text" name="sauce" value="250" size=5></td>
+      <div id="fill">
+        <div id="table">
+        <table id="ingredients">
+          <tr id="head">
+            <th id="necessary">Necessary</th>
+            <th id="necessary_amount"></th>
+          </tr>
+          <tr>
+            <td>Spaghetthi Noodle(g)</td>
+            <td><input type="text" name="noodle" value="250" size=5></td>
+          </tr>
+          <tr>
+            <td>Tomato Sauce(g)</td>
+            <td><input type="text" name="sauce" value="250" size=5></td>
 
-        </tr>
-        <tr>
-          <td>Onion</td>
-          <td><input type="text" name="onion" value="0.5" size=5></td>
+          </tr>
+          <tr>
+            <td>Onion</td>
+            <td><input type="text" name="onion" value="0.5" size=5></td>
 
-        </tr>
-        <tr>
-          <td>Garlic(pieces)</td>
-          <td><input type="text" name="garlic" value="10" size=5></td>
+          </tr>
+          <tr>
+            <td>Garlic(pieces)</td>
+            <td><input type="text" name="garlic" value="10" size=5></td>
 
-        </tr>
-        <tr>
-          <td>Salt(tea spoon)</td>
-          <td><input type="text" name="salt" value="0.5" size=5></td>
+          </tr>
+          <tr>
+            <td>Salt(tea spoon)</td>
+            <td><input type="text" name="salt" value="0.5" size=5></td>
 
-        </tr>
-        <tr>
-          <td>Olive Oil(tea spoon)</td>
-          <td><input type="text" name="olive" value="1" size=5></td>
-        </tr>
-        <tr>
-        </tr>
-        <tr id="head">
-          <th id="non-necessary">Non-Necessary</th>
-          <th id="non-necessary_amount"></th>
-        </tr>
-        <tr>
-          <td>Mushroom</td>
-          <td><input type="text" name="mushroom" value="4" size=5></td>
-        </tr>
-        <tr>
-          <td>Cherry Tomato</td>
-          <td><input type="text" name="tomato" value="10" size=5></td>
-        </tr>
-        <tr>
-          <td>Bacon(g)</td>
-          <td><input type="text" name="bacon" value="110" size=5></td>
-        </tr>
-        <tr>
-          <td>Sausage</td>
-          <td><input type="text" name="sausage" value="2" size=5></td>
-        </tr>
-        <tr>
-          <td>Broccoli</td>
-          <td><input type="text" name="broccoli" value="2" size=5></td>
-        </tr>
+          </tr>
+          <tr>
+            <td>Olive Oil(tea spoon)</td>
+            <td><input type="text" name="olive" value="1" size=5></td>
+          </tr>
+          <tr>
+          </tr>
+          <tr id="head">
+            <th id="non-necessary">Non-Necessary</th>
+            <th id="non-necessary_amount"></th>
+          </tr>
+          <tr>
+            <td>Mushroom</td>
+            <td><input type="text" name="mushroom" value="4" size=5></td>
+          </tr>
+          <tr>
+            <td>Cherry Tomato</td>
+            <td><input type="text" name="tomato" value="10" size=5></td>
+          </tr>
+          <tr>
+            <td>Bacon(g)</td>
+            <td><input type="text" name="bacon" value="110" size=5></td>
+          </tr>
+          <tr>
+            <td>Sausage</td>
+            <td><input type="text" name="sausage" value="2" size=5></td>
+          </tr>
+          <tr>
+            <td>Broccoli</td>
+            <td><input type="text" name="broccoli" value="2" size=5></td>
+          </tr>
 
-      </table>
+        </table>
+      </div>
     </div>
       <div id="bottom">
         <div id="people">
@@ -117,21 +119,23 @@
         </div>
         <b><div id="time-value">30</div> mins</b>
       </div>
-      <div class="steps">
-        <div class="step basic-step" id="step01" data-time="3">Boil the water in the pot.</div>
-        <div class="step basic-step" id="step02" data-time="0">Put 1/2 tea spoon of salt, 1 tea spoon of olive oil in the water.</div>
-        <div class="step basic-step" id="step03" data-time="0">Put 250g of spaghetti noodle to the pot.</div>
-        <div class="step basic-step" id="step04" data-time="8">Boil the spaghetti noodle for 8 minutes.</div>
-        <div class="step basic-step" id="step05" data-time="1">Scoop the spaghetti noodle out, and remove the water.</div>
-        <div class="step extra-step" id="step06" data-time="3">Chop 1 bunch of broccoli, and blanch with salt water.</div>
-        <div class="step basic-step" id="step07" data-time="2">Chop garlics, onions.</div>
-        <div class="step extra-step" id="step08" data-time="4">Chop cherry tomatoes, mushrooms, bacon.</div>
-        <div class="step basic-step" id="step09" data-time="3">Put a pan on a heat and add 1 tea spoon of olive oil.</div>
-        <div class="step basic-step" id="step10" data-time="5">Stir fry garlics and onions until onions become translucent.</div>
-        <div class="step extra-step" id="step11" data-time="2">Stir fry bacon until it shrinks.</div>
-        <div class="step basic-step" id="step12" data-time="3">Add tomato sauce and stir.</div>
-        <div class="step extra-step" id="step13" data-time="1">Add cherry tomatoes, mushrooms, and broccoli then stir them.</div>
-        <div class="step basic-step" id="step14" data-time="1">Stir the spaghetti noodle together.</div>
+      <div id="fill-bottom">
+        <div class="steps">
+          <div class="step basic-step" id="step01" data-time="3">Boil the water in the pot.</div>
+          <div class="step basic-step" id="step02" data-time="0">Put 1/2 tea spoon of salt, 1 tea spoon of olive oil in the water.</div>
+          <div class="step basic-step" id="step03" data-time="0">Put 250g of spaghetti noodle to the pot.</div>
+          <div class="step basic-step" id="step04" data-time="8">Boil the spaghetti noodle for 8 minutes.</div>
+          <div class="step basic-step" id="step05" data-time="1">Scoop the spaghetti noodle out, and remove the water.</div>
+          <div class="step extra-step" id="step06" data-time="3">Chop 1 bunch of broccoli, and blanch with salt water.</div>
+          <div class="step basic-step" id="step07" data-time="2">Chop garlics, onions.</div>
+          <div class="step extra-step" id="step08" data-time="4">Chop cherry tomatoes, mushrooms, bacon.</div>
+          <div class="step basic-step" id="step09" data-time="3">Put a pan on a heat and add 1 tea spoon of olive oil.</div>
+          <div class="step basic-step" id="step10" data-time="5">Stir fry garlics and onions until onions become translucent.</div>
+          <div class="step extra-step" id="step11" data-time="2">Stir fry bacon until it shrinks.</div>
+          <div class="step basic-step" id="step12" data-time="3">Add tomato sauce and stir.</div>
+          <div class="step extra-step" id="step13" data-time="1">Add cherry tomatoes, mushrooms, and broccoli then stir them.</div>
+          <div class="step basic-step" id="step14" data-time="1">Stir the spaghetti noodle together.</div>
+        </div>
       </div>
     </div>
   </body>
