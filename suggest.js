@@ -169,6 +169,7 @@ function addNewSet(name, ings) {
 $(document).ready(function () { //move to recipes.html (since what-to-make has been decided)
     $('button[name="MD"]').on("click", function () {
         $("#box").load("recipes.html");
+        $("#left").text($(this).parent().parent().attr("id"));
         menuList.style.display = "none";
     })
 });
