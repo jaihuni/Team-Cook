@@ -1,166 +1,175 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
-    <link href="./main_page.css" rel="stylesheet" />
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-            crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
-    <script src="semantic/semantic.js"></script>
-    <link href="./suggest.css" rel="stylesheet">
+  <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+  <link href="./main_page.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+  <script src="semantic/semantic.js"></script>
+  <link href="./suggest.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="list">
-    </div>
-    <div id="page">
-        <div id="tables" class="content">
-            <table id="Search">
-                <tr>
-                    <td colspan="3">
-                        <div class="ui action input">
-                            <input type="text" id="searchIng_input" placeholder="Search" />
-                            <button class="ui compact button" id="searchIng_enter">GO!</button>
-                        </div>
-                    </td>
+  <div class="list">
+  </div>
+  
+  <div id="page">
+    <h1 class="ui header">Recipe Finding</h1>
+    <div id="tables" class="content">
+      <table id="Search">
+        <tr>
+          <td colspan="3">
+            <div class="ui action input">
+              <input type="text" id="searchIng_input" placeholder="Search" />
+              <button class="ui compact button" id="searchIng_enter">Add to list</button>
+            </div>
+          </td>
 
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <button id="add_set" class="ui compact button">
-                            Add Set
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="ui checkbox">
-                            <input id="bacon" type="checkbox" name="pasta">
-                            <label>bacon</label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="ui checkbox">
-                            <input type="checkbox" name="pasta" id="cheese" />
-                            <label>cheese</label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="ui checkbox">
-                            <input type="checkbox" name="pasta" id="shrimp" />
-                            <label>shrimp</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <div class="ui checkbox">
-                            <input type="checkbox" name="pasta" id="spaghetti noodles" />
-                            <label>spaghetti noodles</label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="ui checkbox">
-                            <input type="checkbox" name="pasta" id="lettuce" />
-                            <label>lettuce</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="ui checkbox">
-                            <input type="checkbox" name="pasta" id="onion" />
-                            <label>onion</label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="ui checkbox">
-                            <input type="checkbox" name="pasta" id="garlic" />
-                            <label>garlic</label>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-
-            <table id="list">
-                <tr>
-                    <th><b>Ingredients</b></th>
-                    <th>
-                        <button class="ui compact button" id="clearI">Clear</button>
-                    </th>
-                </tr>
-            </table>
-        </div>
-
-        <p></p>
-        <div class="ui right floated vertical buttons"></di>
-            <button id="suggestR" class="ui primary compact button">
-                Suggest Recipe
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button id="add_set" class="ui compact button">
+              Add Set
             </button>
-            <button onclick="document.location = 'index.html'" class="ui compact button">
-                Back Home
-            </button>
-        </div>
-    </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ui checkbox">
+              <input id="bacon" type="checkbox" name="pasta">
+              <label>bacon</label>
+            </div>
+          </td>
+          <td>
+            <div class="ui checkbox">
+              <input type="checkbox" name="pasta" id="cheese" />
+              <label>cheese</label>
+            </div>
+          </td>
+          <td>
+            <div class="ui checkbox">
+              <input type="checkbox" name="pasta" id="shrimp" />
+              <label>shrimp</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="ui checkbox">
+              <input type="checkbox" name="pasta" id="spaghetti noodles" />
+              <label>spaghetti noodles</label>
+            </div>
+          </td>
+          <td>
+            <div class="ui checkbox">
+              <input type="checkbox" name="pasta" id="lettuce" />
+              <label>lettuce</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ui checkbox">
+              <input type="checkbox" name="pasta" id="onion" />
+              <label>onion</label>
+            </div>
+          </td>
+          <td>
+            <div class="ui checkbox">
+              <input type="checkbox" name="pasta" id="garlic" />
+              <label>garlic</label>
+            </div>
+          </td>
+        </tr>
+      </table>
 
-    <div class="modal" id="set-screen">
-        <div class="modal-content">
-            <span class="close" id="set_close">&times;</span>
-            <!--<h2>SET Selection</h2>-->
-            <table id="setTable">
-                <tr><th colspan="3">SET Selection</th></tr>
-                <tr>
-                    <td>SET 1</td>
-                    <td>lettuce, onions, garlic, green onions, parsly, pepper</td>
-                    <td><button class="ui compact button" name="SI" id="SET 1">add to ingredients</button></td>
-                </tr>
-                <tr>
-                    <td>SET SAUCE</td>
-                    <td>cream sauce, teriyaki sauce, soy sauce, red pepper paste</td>
-                    <td><button class="ui compact button" name="SI" id="SET SAUCE">add to ingredients</button></td>
-                </tr>
-                <tr>
-                    <td>RICE</td>
-                    <td>white rice, brown rice, red beans</td>
-                    <td><button class="ui compact button" name="SI" id="RICE">add to ingredients</button></td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <div class="ui action input">
-                            <input type="text" id="new_set_name" placeholder="SET NAME" value="SET NAME" />
-                            <input type="text" id="new_set" placeholder="SET OF INGREDIENTS" />
-                            <button class="ui compact button" id="add_setM">ADD SET</button>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-    <div class="modal" id="menus">
-        <div class="modal-content">
-            <span class="close" id="menu_close">&times;</span>
-            <table id="menuTable">
-                <tr><th colspan="2">POSSIBLE MENUS</th></tr>
-                <tr>
-                    <td>tomato spaghetti</td>
-                    <td><button class="ui compact button" name="MD">CHOOSE THIS</button></td>
-                </tr>
-                <tr>
-                    <td>cream spaghetti</td>
-                    <td><button class="ui compact button" name="MD">CHOOSE THIS</button></td>
-                </tr>
-                <tr>
-                    <td>phat thai</td>
-                    <td><button class="ui compact button" name="MD">CHOOSE THIS</button></td>
-                </tr>
-            </table>
-        </div>
+      <table id="list">
+        <tr>
+          <th><b>Ingredients</b></th>
+          <th>
+            <button class="ui compact button" id="clearI">Clear</button>
+          </th>
+        </tr>
+      </table>
     </div>
 
     <p></p>
-    <script src="./suggest.js"></script>
-    <!--<p id="test">test</p>-->
+    <div class="ui right floated vertical buttons">
+      </di>
+      <button id="suggestR" class="ui primary compact button">
+        Suggest Recipe
+      </button>
+      <button onclick="document.location = 'index.html'" class="ui compact button">
+        Back Home
+      </button>
+    </div>
+  </div>
+
+  <div class="modal" id="set-screen">
+    <div class="modal-content">
+      <span class="close" id="set_close">&times;</span>
+      <!--<h2>SET Selection</h2>-->
+      <table id="setTable">
+        <tr>
+          <th colspan="3">SET Selection</th>
+        </tr>
+        <tr>
+          <td>SET 1</td>
+          <td>lettuce, onions, garlic, green onions, parsly, pepper</td>
+          <td><button class="ui compact button" name="SI" id="SET 1">add to ingredients</button></td>
+        </tr>
+        <tr>
+          <td>SET SAUCE</td>
+          <td>cream sauce, teriyaki sauce, soy sauce, red pepper paste</td>
+          <td><button class="ui compact button" name="SI" id="SET SAUCE">add to ingredients</button></td>
+        </tr>
+        <tr>
+          <td>RICE</td>
+          <td>white rice, brown rice, red beans</td>
+          <td><button class="ui compact button" name="SI" id="RICE">add to ingredients</button></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="ui action input">
+              <input type="text" id="new_set_name" placeholder="SET NAME" value="SET NAME" />
+              <input type="text" id="new_set" placeholder="SET OF INGREDIENTS" />
+              <button class="ui compact button" id="add_setM">ADD SET</button>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="modal" id="menus">
+    <div class="modal-content">
+      <span class="close" id="menu_close">&times;</span>
+      <table id="menuTable">
+        <tr>
+          <th colspan="2">POSSIBLE MENUS</th>
+        </tr>
+        <tr>
+          <td>tomato spaghetti</td>
+          <td><button class="ui compact button" name="MD">CHOOSE THIS</button></td>
+        </tr>
+        <tr>
+          <td>cream spaghetti</td>
+          <td><button class="ui compact button" name="MD">CHOOSE THIS</button></td>
+        </tr>
+        <tr>
+          <td>phat thai</td>
+          <td><button class="ui compact button" name="MD">CHOOSE THIS</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <p></p>
+  <script src="./suggest.js"></script>
+  <!--<p id="test">test</p>-->
 </body>
+
 </html>

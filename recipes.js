@@ -1,17 +1,19 @@
 function getPossibleSum(numberIdPairList) {
-    if(numberIdPairList.length == 0) {
-        return [{time:0, ids:[]}];
+    if (numberIdPairList.length == 0) {
+        return [{ time: 0, ids: [] }];
     }
     else {
         let subAnswer = getPossibleSum(numberIdPairList.slice(1));
-        let result = subAnswer.concat(subAnswer.map(x => ({time: x.time + numberIdPairList[0].time,
-                                                      ids: x.ids.concat([numberIdPairList[0].id])})));
+        let result = subAnswer.concat(subAnswer.map(x => ({
+            time: x.time + numberIdPairList[0].time,
+            ids: x.ids.concat([numberIdPairList[0].id])
+        })));
         return result;
     }
 }
 
 function sliderInit() {
-     let min_time = 0;
+    let min_time = 0;
     $('.basic-step').each(function () {
         min_time += Number($(this).attr('data-time'));
     });
@@ -34,7 +36,7 @@ function sliderInit() {
         });
     });
     let possibleSum = getPossibleSum(listOfExtraTimeAndId);
-    window.sliderPossibleValues = possibleSum.map(x => ({time:x.time+min_time, ids:x.ids}));
+    window.sliderPossibleValues = possibleSum.map(x => ({ time: x.time + min_time, ids: x.ids }));
 
     $("#time-slider").on("input", sliderInputCallback);
     $("#time-slider").focus(sliderFocusCallback);
@@ -42,7 +44,7 @@ function sliderInit() {
 }
 
 function stepInit() {
-    $('.extra-step').each(function() {
+    $('.extra-step').each(function () {
         $(this).on('click', extraStepClickCallback);
     });
 }
@@ -64,23 +66,23 @@ function updateRecipeWithSlider() {
     let stepsToShow = [];
 
     //Get the steps combination which has the time closest to the user input
-    window.sliderPossibleValues.forEach(function(possibleValue) {
-        if(Math.abs(possibleValue.time - sliderValue) < minDifference) {
+    window.sliderPossibleValues.forEach(function (possibleValue) {
+        if (Math.abs(possibleValue.time - sliderValue) < minDifference) {
             minDifference = Math.abs(possibleValue.time - sliderValue);
             closestPossibleTime = possibleValue.time;
             stepsToShow = possibleValue.ids;
         }
     });
 
-    $('.extra-step').each(function() {
-        if(stepsToShow.includes($(this).attr('id'))) {
-            if($(this).hasClass('hidden-step')) {
+    $('.extra-step').each(function () {
+        if (stepsToShow.includes($(this).attr('id'))) {
+            if ($(this).hasClass('hidden-step')) {
                 $(this).removeClass('hidden-step');
                 setTimeout(showStepAnimation, 0, $(this).attr('id'));
             }
         }
         else {
-            if(! $(this).hasClass('hidden-step')) {
+            if (!$(this).hasClass('hidden-step')) {
                 $(this).addClass('hidden-step');
                 setTimeout(hideStepAnimation, 0, $(this).attr('id'));
             }
@@ -97,13 +99,13 @@ function sliderChangeCallback() {
 }
 
 function showStepAnimation(id) {
-    $('#'+id).animate({
+    $('#' + id).animate({
         opacity: 1
     }, 500);
 }
 
 function hideStepAnimation(id) {
-    $('#'+id).animate({
+    $('#' + id).animate({
         opacity: 0.5
     }, 500);
 }
@@ -122,7 +124,7 @@ function sliderBlurCallback() {
 }
 
 function extraStepClickCallback() {
-    if($(this).hasClass('hidden-step')) {//Include step
+    if ($(this).hasClass('hidden-step')) {//Include step
         setTimeout(showStepAnimation, 0, $(this).attr('id'));
         $(this).removeClass('hidden-step');
         $('#time-slider').val(Number($('#time-slider').val()) + Number($(this).attr('data-time')));
@@ -136,22 +138,22 @@ function extraStepClickCallback() {
     }
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
     var noodle_unit = 125;
     var mushroom_unit = 2;
     var sauce_unit = 125;
     var tomato_unit = 5;
-    var onion_unit = 1/4;
+    var onion_unit = 1 / 4;
     var bacon_unit = 55;
     var garlic_unit = 5;
     var sausage_unit = 1;
-    var salt_unit = 1/4;
+    var salt_unit = 1 / 4;
     var broccoli_unit = 1;
-    var olive_unit = 1/2;
+    var olive_unit = 1 / 2;
 
     $(".list").load("list.html");
 
-    $('#modify_amount').click(function() {
+    $('#modify_amount').click(function () {
         var noodle = $('input[name=noodle]').val();
         var mushroom = $('input[name=mushroom]').val();
         var sauce = $('input[name=sauce]').val();
@@ -163,7 +165,7 @@ $(document).ready(function() {
         var salt = $('input[name=salt]').val();
         var broccoli = $('input[name=broccoli]').val();
         var olive = $('input[name=olive]').val();
-        
+
         var temp_array = [];
         temp_array.push(noodle / noodle_unit);
         temp_array.push(sauce / sauce_unit);
@@ -172,7 +174,7 @@ $(document).ready(function() {
         temp_array.push(salt / salt_unit);
         temp_array.push(olive / olive_unit);
 
-        var num = Math.floor(temp_array.sort(function(a, b) {
+        var num = Math.floor(temp_array.sort(function (a, b) {
             return a - b;
         })[0]);
 
@@ -212,7 +214,7 @@ $(document).ready(function() {
         }
     });
 
-    $('#n-people').change(function() {
+    $('#n-people').change(function () {
         var num = $(this).children("option:selected").val();
 
         $('input[name=noodle]').val(num * noodle_unit);
