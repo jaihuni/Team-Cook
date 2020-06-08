@@ -52,6 +52,11 @@ $(document).ready(function () { //add ingredient user typed in
         }
     }
 });
+$(document).ready(function () { //Enter
+    $('#clearI').click(function () {
+        clearIngredient();
+    });
+});
 
 //add, delete checkbox-ed ingredients
 function addIngredient(ing) {
@@ -73,6 +78,21 @@ function deleteIngredient(ing) {
     table.deleteRow(to);
     document.getElementById("test").innerHTML = to;
 
+}
+
+function clearIngredient() { //clear ingredient list
+    var table = document.getElementById("list");
+    var numRows = table.rows.length;
+    var i = numRows - 1;
+    while (i > 0) {
+        table.deleteRow(i);
+        i -= 1;
+    }
+    var lst = document.getElementsByName("pasta");
+    for (var j = 0; j < lst.length; j++) {
+        lst[j].checked = false;
+    }
+//    document.getElementById('test').innerHTML = lst;
 }
 
 /* set-screen modal functions */
