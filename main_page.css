@@ -5,9 +5,9 @@ html, body {
 
 #title{
     background-color: #54ADFF;
-    padding: 15px;
     height: 75px;
     padding-left: 25px;
+    padding-right: 25px;
 }
 
 #container{
@@ -17,10 +17,9 @@ html, body {
 }
 
 #menu{
+    margin-top: 14px;
     font-family: 'Roboto';
-    font-size: large;
-    margin-left: 25px;
-    margin-right: 10px;
+    font-size: small;
     float: right;
 }
 
@@ -33,7 +32,7 @@ button[class="ui button"]{
     font-family: 'Roboto';
     color: white;
     float: left;
-    margin-top: 13px;
+    margin-top: 25px;
 }
 
 .img{
