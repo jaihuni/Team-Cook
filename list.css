@@ -29,6 +29,11 @@ td{
     height: auto;
 }
 
+#listbox{
+    height: 100%;
+    width: 100%;
+}
+
 #table{
     overflow-y: auto;
     max-height: 100%;
