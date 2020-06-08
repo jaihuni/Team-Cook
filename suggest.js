@@ -33,6 +33,8 @@ $(document).ready(function () { //show menus modal
     $("#menu_close").click(function () {
         menuList.style.display = "none";
     });
+
+    $(".list").load("list.html");
 });
 
 $(document).ready(function () { //Enter

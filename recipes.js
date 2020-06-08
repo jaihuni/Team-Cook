@@ -149,6 +149,8 @@ $(document).ready(function() {
     var broccoli_unit = 1;
     var olive_unit = 1/2;
 
+    $(".list").load("list.html");
+
     $('#modify_amount').click(function() {
         var noodle = $('input[name=noodle]').val();
         var mushroom = $('input[name=mushroom]').val();

@@ -35,6 +35,7 @@ th, td {
 
 #page{
     max-width: fit-content;
+    float: left;
 }
 
  
@@ -89,6 +90,13 @@ button[id="suggestR"] {
     cursor: pointer;
 }
 
+.list{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 27%;
+    height: 100%;
+    float: left;
+}
 
 #setTable, #setTable td {
     border: 1px solid black;

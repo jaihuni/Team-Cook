@@ -11,6 +11,14 @@ html, body {
     position: relative;
 }
 
+.list{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 27%;
+    height: 100%;
+    float: left;
+}
+
 .back_square.up {
     margin-left: 0.5%;
     margin-right: 0.5%;
