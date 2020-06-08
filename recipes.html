@@ -86,12 +86,14 @@
     <div class="back_square down">
       <div class="title">Steps</div>
       <div class="steps">
-        <div id="slider-container">
-          <label for="time-adjust">Cooking Time</label>
-          <div id="minimum-time">20</div>
-          <input type="range" id="time-slider" min="20" max="30" step="1"></input>
-          <div id="time-value">30</div>
-          <div id="maximum-time">30</div>
+        <div id="cooking-time">
+          <label for="time-slider">Cooking Time</label>
+          <div id="slider-container">
+            <div id="minimum-time">20</div>
+            <div id="maximum-time">30</div>
+            <input type="range" id="time-slider" min="20" max="30" step="1"></input>
+          </div>
+          <b><div id="time-value">30</div> mins</b>
         </div>
         <div class="step basic-step" id="step01" data-time="3">Boil the water in the pot.</div>
         <div class="step basic-step" id="step02" data-time="0">Put 1/2 tea spoon of salt, 1 tea spoon of olive oil in the water.</div>

@@ -18,6 +18,7 @@ html, body {
 
 .back_square.down {
     height: 69%;
+    overflow-y: scroll;
 }
 
 .title {
@@ -97,11 +98,30 @@ select {
     top: 5px;
 }
 
-#slider-container *{
-    display: inline;
+#cooking-time {
+    padding: 5px 15px;
+    font-size: large;
+    width: auto;
 }
-
+#slider-container {
+    width: 129px;
+    margin: 10px;
+    display: inline-block;
+}
+#minimum-time {
+    float: left;
+}
+#maximum-time {
+    float: right;
+}
+#time-slider {
+    width: auto;
+}
+#time-value {
+    display: inline-block;
+}
 .step {
+    padding: 15px;
     transition-property: border-color, background-color;
     transition-duration: 0.7s;
     border: 1px solid transparent;
