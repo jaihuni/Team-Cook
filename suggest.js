@@ -1,5 +1,5 @@
 // JavaScript source code
-// task1 ±¸Çö: input the ingredients that user has or wants to add, and receive suggested recipes
+// task1 ï¿½ï¿½ï¿½ï¿½: input the ingredients that user has or wants to add, and receive suggested recipes
 $(document).ready(function () {//show set-screen modal
     var setSelect = document.getElementById("set-screen");
     $("#add_set").click(function () { 
@@ -23,8 +23,10 @@ $(document).ready(function () { //checkboxes
     });
 });
 
+var menuList
+
 $(document).ready(function () { //show menus modal
-    var menuList = document.getElementById("menus");
+    menuList = document.getElementById("menus");
     $("#suggestR").click(function () {
         menuList.style.display = "block";
     });
@@ -163,6 +165,7 @@ function addNewSet(name, ings) {
 /* menus modal functions */
 $(document).ready(function () { //move to recipes.html (since what-to-make has been decided)
     $('button[name="MD"]').click(function () {
-        window.location.href = "./recipes.html";
+        $("#box").load("recipes.html");
+        menuList.style.display = "none";
     })
 });
