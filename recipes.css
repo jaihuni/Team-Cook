@@ -27,6 +27,13 @@ html, body {
     font-weight: bold;
     padding-top: 15px;
     padding-left: 15px;
+    padding-bottom: 5px;
+}
+.back_square.down .title {
+    position: sticky;
+    top: 0px;
+    background-color: #eee;
+
 }
 
 #ingredients {
@@ -102,6 +109,9 @@ select {
     padding: 5px 15px;
     font-size: large;
     width: auto;
+    position: sticky;
+    top: 39px;
+    background-color: #eee;
 }
 #slider-container {
     width: 129px;
