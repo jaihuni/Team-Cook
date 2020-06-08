@@ -36,13 +36,20 @@ function sliderInit() {
     let possibleSum = getPossibleSum(listOfExtraTimeAndId);
     window.sliderPossibleValues = possibleSum.map(x => ({time:x.time+min_time, ids:x.ids}));
 
-    $("#time-slider").on("change", sliderChangeCallback);
     $("#time-slider").on("input", sliderInputCallback);
-    $("#time-slider").on("focus", sliderFocusCallback);
-    $("#time-slider").on("blur", sliderBlurCallback);
+    $("#time-slider").focus(sliderFocusCallback);
+    $("#time-slider").blur(sliderBlurCallback);
 }
+
+function stepInit() {
+    $('.extra-step').each(function() {
+        $(this).on('click', extraStepClickCallback);
+    });
+}
+
 function recipeInit() {
     sliderInit();
+    stepInit();
 }
 
 /*
@@ -106,10 +113,27 @@ function sliderInputCallback() {
 }
 function sliderFocusCallback() {
     let stepUpdateTimeInterval = 200;
-    window.setInterval(updateRecipeWithSlider, stepUpdateTimeInterval);
+    window.recipeUpdateInterval = setInterval(updateRecipeWithSlider, stepUpdateTimeInterval);
+    $("#time-slider").on("change", sliderChangeCallback);
 }
 function sliderBlurCallback() {
-    window.clearInterval(updateRecipeWithSlider);
+    clearInterval(window.recipeUpdateInterval);
+    $("#time-slider").off("change");
+}
+
+function extraStepClickCallback() {
+    if($(this).hasClass('hidden-step')) {//Include step
+        setTimeout(showStepAnimation, 0, $(this).attr('id'));
+        $(this).removeClass('hidden-step');
+        $('#time-slider').val(Number($('#time-slider').val()) + Number($(this).attr('data-time')));
+        $('#time-value').text($('#time-slider').val());
+    }
+    else {//Exclude step
+        setTimeout(hideStepAnimation, 0, $(this).attr('id'));
+        $(this).addClass('hidden-step');
+        $('#time-slider').val(Number($('#time-slider').val()) - Number($(this).attr('data-time')));
+        $('#time-value').text($('#time-slider').val());
+    }
 }
 
 $(document).ready(function() {

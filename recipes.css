@@ -100,3 +100,31 @@ select {
 #slider-container *{
     display: inline;
 }
+
+.step {
+    transition-property: border-color, background-color;
+    transition-duration: 0.7s;
+    border: 1px solid transparent;
+}
+.step:hover {
+    border-color: white;
+    background-color: lightgray;
+}
+
+.hidden-step {
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    transition: text-decoration-color 0.7s ease 0.05s;
+}
+.hidden-step:hover {
+    text-decoration-color: transparent;
+}
+
+.extra-step:not(.hidden-step) {
+    text-decoration-line: line-through;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.7s ease 0.05s;
+}
+.extra-step:not(.hidden-step):hover {
+    text-decoration-color: black;
+}
