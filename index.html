@@ -1,23 +1,23 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Team Cook Hi-Fi prototype</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />  <link href="./main_page.css" rel="stylesheet" />
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="./main_page.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
-    <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="semantic/semantic.js"></script>
-    <link rel="preload" href="./recipes.css" as="style">
     <link rel="preload" href="./recipes.js" as="script">
-    <link rel="preload" href="./suggest.css" as="style">
     <link rel="preload" href="./suggest.js" as="script">
-  </head>
-  <body>
+    <link rel="preload" href="./list.js" as="script">
+</head>
+
+<body>
     <!--Your HTML here-->
 
     <div id="container">
@@ -34,21 +34,21 @@
                 </a>
             </div>
         </div>
-        
+
 
         <div id="rightarea">
-        <div id="box">
-            <div id="half">
-                <div id="halftwo">
-                    <button type="button" id="suggest">
-                        <img src="img\recommend.png" class="img">
-                    </button>
-                    <button type="button" id="recipes">
-                        <img src="img\optimizing.png" class="img">
-                    </button>
+            <div id="box">
+                <div id="half">
+                    <div id="halftwo">
+                        <button type="button" id="suggest">
+                            <img src="img\recommend.png" class="img">
+                        </button>
+                        <button type="button" id="recipes">
+                            <img src="img\optimizing.png" class="img">
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 
@@ -63,5 +63,6 @@
       https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase.js"></script>
-  </body>
+</body>
+
 </html>
