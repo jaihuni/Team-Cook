@@ -7,18 +7,32 @@ html, body {
 
 .back_square {
     background-color: #eee;
-    margin-bottom: 1%;
     width: 100%;
     position: relative;
 }
 
 .back_square.up {
-    height: 29%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+#table{
+    overflow-y: scroll;
+    max-height: 75%;
 }
 
 .back_square.down {
-    height: 69%;
     overflow-y: scroll;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    width: 35%;
+    height: 100%;
+    float: left;
 }
 
 .title {
@@ -27,13 +41,13 @@ html, body {
     font-weight: bold;
     padding-top: 15px;
     padding-left: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
+    height: fit-content;
 }
 .back_square.down .title {
     position: sticky;
     top: 0px;
     background-color: #eee;
-
 }
 
 #ingredients {
@@ -72,6 +86,12 @@ th, td {
     width: 250px;
 }
 
+#bottom{
+
+    width: 100%;
+    padding: 10px;
+}
+
 #modify_amount {
     font-family: 'Roboto';
     font-size: large;
@@ -79,9 +99,6 @@ th, td {
     padding: 10px;
     background-color: #54ADFF;
     border: 1px solid black;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
 }
 
 input[type="text"] {
@@ -129,6 +146,15 @@ select {
 }
 #time-value {
     display: inline-block;
+}
+
+#people{
+    float: left;
+    width: fit-content;
+}
+
+#n-people{
+    min-width: fit-content;
 }
 .step {
     padding: 15px;
