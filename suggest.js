@@ -55,7 +55,7 @@ $(document).ready(function () { //add ingredient user typed in
     }
 });
 $(document).ready(function () { //Enter
-    $('#clearI').click(function () {
+    $('#clearI').on("click", function () {
         clearIngredient();
     });
 });
@@ -127,7 +127,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () { //add SET to list of ingredients
-    $('button[name="SI"]').click(function () {
+    $('button[name="SI"]').on("click",function () {
         var setName = this.id;
         //document.getElementById('test').innerHTML = String(setName);
         addIngredient(setName);
@@ -152,6 +152,7 @@ function addNewSet(name, ings) {
     var btn = document.createElement("button");
     btn.name = "SI";
     btn.id = String(name);
+    btn.setAttribute("class", "ui compact button");
     btn.innerHTML = "add to ingredients";
     cell2.appendChild(btn);
 
@@ -164,7 +165,7 @@ function addNewSet(name, ings) {
 
 /* menus modal functions */
 $(document).ready(function () { //move to recipes.html (since what-to-make has been decided)
-    $('button[name="MD"]').click(function () {
+    $('button[name="MD"]').on("click", function () {
         $("#box").load("recipes.html");
         menuList.style.display = "none";
     })

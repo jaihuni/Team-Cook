@@ -6,6 +6,7 @@ $(document).ready( function() {
 	
     $(document).on('click', '#recipes',function() {
         $("#box").load("recipes.html");
+        $("#left").text("Recipe Optimizing");
     });
 	
 });
