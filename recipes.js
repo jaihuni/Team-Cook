@@ -1,3 +1,117 @@
+function getPossibleSum(numberIdPairList) {
+    if(numberIdPairList.length == 0) {
+        return [{time:0, ids:[]}];
+    }
+    else {
+        let subAnswer = getPossibleSum(numberIdPairList.slice(1));
+        let result = subAnswer.concat(subAnswer.map(x => ({time: x.time + numberIdPairList[0].time,
+                                                      ids: x.ids.concat([numberIdPairList[0].id])})));
+        return result;
+    }
+}
+
+function sliderInit() {
+     let min_time = 0;
+    $('.basic-step').each(function () {
+        min_time += Number($(this).attr('data-time'));
+    });
+    let max_time = 0;
+    $('.step').each(function () {
+        max_time += Number($(this).attr('data-time'));
+    });
+    $('#time-slider').attr('min', min_time);
+    $('#minimum-time').text(min_time);
+    $('#time-slider').attr('max', max_time);
+    $('#maximum-time').text(max_time);
+    $('#time-slider').attr('value', max_time);
+    $('#time-value').text($('#time-slider').val());
+
+    let listOfExtraTimeAndId = [];
+    $('.extra-step').each(function () {
+        listOfExtraTimeAndId.push({
+            time: Number($(this).attr('data-time')),
+            id: $(this).attr('id')
+        });
+    });
+    let possibleSum = getPossibleSum(listOfExtraTimeAndId);
+    window.sliderPossibleValues = possibleSum.map(x => ({time:x.time+min_time, ids:x.ids}));
+
+    $("#time-slider").on("change", sliderChangeCallback);
+    $("#time-slider").on("input", sliderInputCallback);
+    $("#time-slider").on("focus", sliderFocusCallback);
+    $("#time-slider").on("blur", sliderBlurCallback);
+}
+function recipeInit() {
+    sliderInit();
+}
+
+/*
+Get possible combination of steps, which has the closest time to slider's value
+Show/hide corresponding steps, return closest possible time.
+Called when there's an update at the slider's value
+*/
+function updateRecipeWithSlider() {
+    let sliderValue = Number($('#time-slider').val());
+    let minDifference = Infinity;
+    let closestPossibleTime = 0;
+    let stepsToShow = [];
+
+    //Get the steps combination which has the time closest to the user input
+    window.sliderPossibleValues.forEach(function(possibleValue) {
+        if(Math.abs(possibleValue.time - sliderValue) < minDifference) {
+            minDifference = Math.abs(possibleValue.time - sliderValue);
+            closestPossibleTime = possibleValue.time;
+            stepsToShow = possibleValue.ids;
+        }
+    });
+
+    $('.extra-step').each(function() {
+        if(stepsToShow.includes($(this).attr('id'))) {
+            if($(this).hasClass('hidden-step')) {
+                $(this).removeClass('hidden-step');
+                setTimeout(showStepAnimation, 0, $(this).attr('id'));
+            }
+        }
+        else {
+            if(! $(this).hasClass('hidden-step')) {
+                $(this).addClass('hidden-step');
+                setTimeout(hideStepAnimation, 0, $(this).attr('id'));
+            }
+        }
+    });
+
+    return closestPossibleTime;
+}
+
+function sliderChangeCallback() {
+    let closestPossibleTime = updateRecipeWithSlider();
+    $('#time-slider').val(closestPossibleTime);
+    $('#time-value').text($('#time-slider').val());
+}
+
+function showStepAnimation(id) {
+    $('#'+id).animate({
+        opacity: 1
+    }, 500);
+}
+
+function hideStepAnimation(id) {
+    $('#'+id).animate({
+        opacity: 0.5
+    }, 500);
+}
+
+function sliderInputCallback() {
+    $('#time-value').text(Math.round($('#time-slider').val()));
+}
+function sliderFocusCallback() {
+    let stepUpdateTimeInterval = 200;
+    window.setInterval(updateRecipeWithSlider, stepUpdateTimeInterval);
+}
+function sliderBlurCallback() {
+    window.clearInterval(updateRecipeWithSlider);
+}
+
 $(document).ready(function() {
     var noodle_unit = 125;
     var mushroom_unit = 2;
@@ -87,4 +201,6 @@ $(document).ready(function() {
         $('input[name=broccoli]').val(num * broccoli_unit);
         $('input[name=olive]').val(num * olive_unit);
     });
+
+    recipeInit();
 });
