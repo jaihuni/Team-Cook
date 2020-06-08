@@ -41,7 +41,7 @@
           <td><input type="text" name="mushroom" value="4" size=5></td>
           <td>
             <select id="n-people">
-              <option value="1">1 people</option>
+              <option value="1">1 person</option>
               <option value="2" selected="true">2 people</option>
               <option value="3">3 people</option>
               <option value="4">4 people</option>
@@ -85,6 +85,29 @@
     </div>
     <div class="back_square down">
       <div class="title">Steps</div>
+      <div class="steps">
+        <div id="slider-container">
+          <label for="time-adjust">Cooking Time</label>
+          <div id="minimum-time">20</div>
+          <input type="range" id="time-slider" min="20" max="30" step="1"></input>
+          <div id="time-value">30</div>
+          <div id="maximum-time">30</div>
+        </div>
+        <div class="step basic-step" id="step01" data-time="3">Boil the water in the pot.</div>
+        <div class="step basic-step" id="step02" data-time="0">Put 1/2 tea spoon of salt, 1 tea spoon of olive oil in the water.</div>
+        <div class="step basic-step" id="step03" data-time="0">Put 250g of spaghetti noodle to the pot.</div>
+        <div class="step basic-step" id="step04" data-time="8">Boil the spaghetti noodle for 8 minutes.</div>
+        <div class="step basic-step" id="step05" data-time="1">Scoop the spaghetti noodle out, and remove the water.</div>
+        <div class="step extra-step" id="step06" data-time="3">Chop 1 bunch of broccoli, and blanch with salt water.</div>
+        <div class="step basic-step" id="step07" data-time="2">Chop garlics, onions.</div>
+        <div class="step extra-step" id="step08" data-time="4">Chop cherry tomatoes, mushrooms, bacon.</div>
+        <div class="step basic-step" id="step09" data-time="3">Put a pan on a heat and add 1 tea spoon of olive oil.</div>
+        <div class="step basic-step" id="step10" data-time="5">Stir fry garlics and onions until onions become translucent.</div>
+        <div class="step extra-step" id="step11" data-time="2">Stir fry bacon until it shrinks.</div>
+        <div class="step basic-step" id="step12" data-time="3">Add tomato sauce and stir.</div>
+        <div class="step extra-step" id="step13" data-time="1">Add cherry tomatoes, mushrooms, and broccoli then stir them.</div>
+        <div class="step basic-step" id="step14" data-time="1">Stir the spaghetti noodle together.</div>
+      </div>
     </div>
   </body>
 </html>
