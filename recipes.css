@@ -196,6 +196,7 @@ select {
 }
 .step {
     padding: 15px;
+    font-size: large;
     transition-property: border-color, background-color;
     transition-duration: 0.7s;
     border: 1px solid transparent;
@@ -223,4 +224,6 @@ select {
     text-decoration-color: black;
 }
 
-.
+input[type="checkbox"] {
+    margin: 5px;
+}
