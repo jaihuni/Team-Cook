@@ -44,8 +44,14 @@ function sliderInit() {
 }
 
 function stepInit() {
+    $('.basic-step').each(function () {
+        $(this).find('input').attr('disabled', '');
+        $(this).find('input').attr('checked', 'checked');
+    })
     $('.extra-step').each(function () {
         $(this).on('click', extraStepClickCallback);
+        $(this).find('input').on('clikc', function(event) {event.preventDefault();});
+        $(this).find('input').attr('checked', 'checked');
     });
 }
 
@@ -78,12 +84,14 @@ function updateRecipeWithSlider() {
         if (stepsToShow.includes($(this).attr('id'))) {
             if ($(this).hasClass('hidden-step')) {
                 $(this).removeClass('hidden-step');
+                $(this).find('input').prop('checked', true);
                 setTimeout(showStepAnimation, 0, $(this).attr('id'));
             }
         }
         else {
             if (!$(this).hasClass('hidden-step')) {
                 $(this).addClass('hidden-step');
+                $(this).find('input').prop('checked', false);
                 setTimeout(hideStepAnimation, 0, $(this).attr('id'));
             }
         }
@@ -127,12 +135,14 @@ function extraStepClickCallback() {
     if ($(this).hasClass('hidden-step')) {//Include step
         setTimeout(showStepAnimation, 0, $(this).attr('id'));
         $(this).removeClass('hidden-step');
+        $(this).find('input').prop('checked', true);
         $('#time-slider').val(Number($('#time-slider').val()) + Number($(this).attr('data-time')));
         $('#time-value').text($('#time-slider').val());
     }
     else {//Exclude step
         setTimeout(hideStepAnimation, 0, $(this).attr('id'));
         $(this).addClass('hidden-step');
+        $(this).find('input').prop('checked', false);
         $('#time-slider').val(Number($('#time-slider').val()) - Number($(this).attr('data-time')));
         $('#time-value').text($('#time-slider').val());
     }
