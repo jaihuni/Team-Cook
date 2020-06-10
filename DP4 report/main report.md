@@ -38,11 +38,21 @@ Self-boarding students who have trouble following conventional recipes.
 
 ### Representative screenshots
 
+​	Task 1. Below screenshot represents about recipe suggestion. Recipe suggestion page can fill ingredients table with ingredients by click ingredients checkbox, search and enter, or click Add set button(This action can add several ingredients at once). After you fill ingredients table, you can be suggested possible menus when you click suggest recipe.
+
 <img style="float: left" src="/img/1.png" width="600" height="250">
+
+​	Task 2 and 3 are can execute in recipe optimizing page.	
+
+​	Task 2. Below screenshots represent about Ingredients optimizing. first image's table is filled randomized values to be determined by user.
 
 <img style="float: left" src="/img/2-1.png" width="600" height="500">
 
+​	If, user click "Modify Amount", The table's value is adjusted to max serving's ingredients which can make to input value.
+
 <img style="float: left" src="/img/2-2.png" width="600" height="500">
+
+Task 3. Below screenshot represents about Step optimizing. It looks like normal recipes, but some steps can be deleted. User can distinguish delete-able step with its checkbox theme. Also, It suggest automatic time reduced recipe when user adjust cooking time by using slider. 
 
 <img style="float: left" src="/img/3.png" width="600" height="800">
 
@@ -53,7 +63,7 @@ Self-boarding students who have trouble following conventional recipes.
 ## Individual Reflections
 
 #### Mingi Shin
-Implemented mechanisms, ui elemnets for the recipe step management.
+Implemented mechanisms, ui elements for the recipe step management.
 
 - Slider ui represents: the minimum and maximum cooking time, estimated cooking time, input for user
 - Algorithm to include/exclude steps according to user's wanted time.
@@ -111,13 +121,15 @@ I implemented the mechanisms of the Recipe Suggestion page and worked on its bas
 
 (3) Provide images of ingredients in the recipe suggestion page, preferably on the right side of ingredient names.
 
-(Recipe Optimizing 페이지에도 재료 사진이 지원되는 것이 나을까요?)
+	- (idea) Recipe optimizing page is also better to display image in their ingredients and cooking steps.  When cooking steps are have image, it is needed to hide deleted step's image to rescue user from reading too long recipes.
 
 
 
 - Recipe Optimizing
 
-(idea) Keep the checkbox color consistent for both the 'Necessary' and 'Unnecessary' instructions (the gray-colored checkboxes of the 'Necessary' instructions may have confused some users), and remove the hover color-changing option for the 'Necessary' instructions (for additional differentiation). --> but I'm not sure if this would be less confusing than what we currently have; a user test would be nice
+(idea) Keep the checkbox color consistent for both the 'Necessary' and 'Unnecessary' instructions (the gray-colored checkboxes of the 'Necessary' instructions may have confused some users), and remove the hover color-changing option for the 'Necessary' instructions (for additional differentiation). --> (opinion) but I'm not sure if this would be less confusing than what we currently have; a user test would be nice
+
+
 
 - Overall
 
