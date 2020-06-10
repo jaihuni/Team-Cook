@@ -8,7 +8,9 @@ Description of the code
 
 - main_page.js: Loads suggest.html and recipes.html depending on which box is clicked.
 
-- list.js: Loads recipes.html.
+- list.html: html for other recipe lists.
+
+- list.js: js other recipe lists. It loads recipes.html with clicked title
 
 - suggest.js: Contains functions related to task1 (input the ingredients that user has or wants to add, and receive suggested recipes). There are function(s) that add ingredients to the ingredient list, clear the ingredient list, add sets to the set list, and change the screen to recipes.html.
 
