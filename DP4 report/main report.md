@@ -63,15 +63,19 @@ Task 3. Below screenshot represents about Step optimizing. It looks like normal 
 ## Individual Reflections
 
 #### Mingi Shin
-Implemented mechanisms, ui elements for the recipe step management.
+I mainly worked on supporting task 3, I implemented mechanisms, ui elements for the recipe step management.
 
 - Slider ui represents: the minimum and maximum cooking time, estimated cooking time, input for user
-- Algorithm to include/exclude steps according to user's wanted time.
-- Algorithm to reflect the changed estimated time, corresponding to the editted recipe.
+- Algorithm to support dynamic recipe, that include/exclude steps according to user's wanted time.
+- Algorithm to change the ui displaying estimated time, corresponding to the editted recipe.
 - Added hover animation and checkboxes to steps, to help user noticing that the recipe is customizable.
 - Keeping the estimated time on the screen.
 
-And also, we did some discussions on the overall menu together.
+And also, we did some discussions on the overall menu/the structure of pages together.
+
+One major difficulty was that, we have to make sure that user notices that they can remove and restore the steps, not pass by the feature. To do so, I added some checkboxes. But the function of checkboxes can be vague to the users, so I added hover animation that draws a strike-out on the steps, to let the users know that clicking on them excludes the step from the recipe.
+
+I learned to utilize an animation(not only with js, but also using css transition) that can draw user's attention. The simple transition helped me a lot on testing various ways to notify the (possible) changes to user.
 
 #### JoonYoung Keum
 Contributed to UI of the task 2, ingredients amount management.
@@ -84,7 +88,7 @@ Contributed to UI of the task 2, ingredients amount management.
 It was hard to place each element in appropriate position. Also, displaying default value while input is available was hard to design.
 
 One useful implementation skill I learned is making margins and paddings in balance with other elements.
-
+ 
 
 #### Jaehun Kim
 
