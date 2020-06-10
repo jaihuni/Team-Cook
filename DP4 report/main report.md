@@ -89,7 +89,13 @@ One useful implementation skill I learned is making margins and paddings in bala
 #### Jaehun Kim
 
 #### Nayeon Lee
-I implemented the mechanisms of the Recipe Suggestion page and worked on its basic design. Deciding where to put the 'Add Set' button was more difficult than I expected. It was part of the Ingredients list in the Low-Fi prototype, but received feedback that it was hard to notice. Regarding code, making a function for deleting individual ingredients was quite complicated (in part because there were multiple ways to add ingredients). In the end I decided on making a clear button, since I couldn't decide which method(checkbox, search, add set) could be deleted without sacrificing functionality. The search function seemed like a must since even the most basic recipes need about 10 ingredients, and without it checkboxes would clutter the screen. The checkboxes were not only a way of adding ingredients but also a clue for the novice cooker; a blank screen wouldn't help him/her remember what is in the refrigerator. Perhaps the add set could be removed, but it was a way to reduce time and I wanted to see if the change in design would be helpful. As for implementation, I learned how to make modals while making functions related to the 'Add Set' and 'Suggest Recipe' buttons.
+Implemented the mechanisms of the Recipe Suggestion page and worked on its basic design (task 1).
+
+Deciding where to put the 'Add Set' button was more difficult than I expected. It was part of the Ingredients list in the Low-Fi prototype, but received feedback that it was hard to notice. 
+
+Regarding code, making a function for deleting individual ingredients was quite complicated (in part because there were multiple ways to add ingredients). In the end I decided on making a clear button, since I couldn't decide which method(checkbox, search, add set) could be deleted without sacrificing functionality. The search function seemed like a must since even the most basic recipes need about 10 ingredients, and without it checkboxes would clutter the screen. The checkboxes were not only a way of adding ingredients but also a clue for the novice cooker; a blank screen wouldn't help him/her remember what is in the refrigerator. Perhaps the add set could be removed, but it was a way to reduce time and I wanted to see if the change in design would be helpful. 
+
+As for implementation, I learned how to make modals while making functions related to the 'Add Set' and 'Suggest Recipe' buttons.
 
 
 ## Studio Reflections
