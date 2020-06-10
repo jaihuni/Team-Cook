@@ -2,21 +2,21 @@
 
 ## POV
 
-> **Self-boarding students who have trouble following conventional recipes** need to **refine existing recipes** because **beginners find it hard to apply recipes to their situations**.
+> **Self-boarding students who have trouble following conventional recipes** need to **refine existing recipes** because **beginners find it hard to apply recipes to their situations due to lack of time, money, or experience.**
 
 
 
 ## Target Users
 
-Self-boarding students who have trouble following conventional recipes because they don't have enough time or money to try commercial recipes, and are novice cookers.
+Self-boarding students who have trouble following conventional recipes.
 
 
 
 ## Tasks
 
-1. Input the ingredients that user has or wants to add and receive suggested recipes.
-2. For a chosen recipe, input the amount of ingredients (required for the recipe) that user has and receive a modified recipe.
-3. Input time that user can spend in cooking and receive a modified recipe.
+1. Input the ingredients that user has or wants to add, then receive suggested recipes.
+2. For a chosen recipe, input the amount of ingredients (required for the recipe) that user has or wants to add, then receive a modified recipe.
+3. Input time that user can spend in cooking, then receive a modified recipe.
 
 
 
@@ -38,33 +38,13 @@ Self-boarding students who have trouble following conventional recipes because t
 
 ### Representative screenshots
 
-![img](https://lh5.googleusercontent.com/JawdFr6xDAqKh_5GbL6H5qvUZZ7jLHIlquSd9fnTaOxNdBuWf2n8EisiDu66Fop0QCPygfpM7DjTwS8ZI-onb8ze36mXFBfc-vLIUK-p79Uat6lcBSOyHbc2DSXv0WnIXJYz2pY48c4)
+<img style="float: left" src="/img/1.png" width="600" height="250">
 
-![img](https://lh6.googleusercontent.com/F7JQT5fm04-FkdSwgEx7CidQ0ulLOvEoyFIay-nEFSIq-R4lG-Sguvg5WBjXi-piQlQ_PBMgU4DdaRVtiLgATJPm6X3STstvTwIQ7B4cNiKQyv2fm5NYeAuOt8lg2Jn5hU6JS3CWhyE)
+<img style="float: left" src="/img/2-1.png" width="600" height="500">
 
+<img style="float: left" src="/img/2-2.png" width="600" height="500">
 
-
-![img](https://lh6.googleusercontent.com/dd06wyMMovK_roCReqZ3OlmAKPWs6Nz1nYZXhooDBKSaSb5wjcMPv7bDMg7LEHX7isIDgNMNXxY5486liBhtyZfl2O9dtCstPbfOT5WthVM5cWDgoQvnQntxWAZjbuDhTsC23VLRke0)
-
-
-
-![img](https://lh6.googleusercontent.com/dvD0IJe7Rma9m-D2jgO5Ik_a-jscJN6IaaoFBJ6epCHksGRuloUyzxhspzpFLTuDUrN2ctWkTfuob1KXwsFxJr6K0gnCyyWlRVJsgsSw-0U85BvACarriSuixvm7-wZa_AeHT1hT5_w)
-
-
-
-<img src="https://lh6.googleusercontent.com/1dE8PqPpfdQZ-VtMEk_aJ1soc00ZVpWzIi-TIHsIsIg_818IbrEJgF54clf8qzFX_T6N_a2BqoRJEPABXaLgvkU-r4whD_OTJ_r-5azGH2UfoxSNVz6BnXF989OP6jkF-DMY8dpy0dw" alt="img" style="zoom:50%;" />
-
-
-
-<img src="https://lh6.googleusercontent.com/-choe9fsrrHdnnTNSHlYLvmEUxnSWUqsyXmzp4LmY_JQ2VhtJ1hLxUDwZmUw7n-dqqJThjaualENK0gdazddnMgL_4JDIdQWagh2IZcaC7aFdmYtpKDkyDlzjUwjxmb9NI0HvESaJ-E" alt="img" style="zoom:50%;" />
-
-
-
-<img src="https://lh4.googleusercontent.com/fWszvf5CURtTWPdztb--PEFcluJUKR4OeGe2rDvtMkSNTy7wR7hf-pXKvWeKzLnFLnqaWq01npn6F41By0tWZtGRIe3mxjJrGTcz7rCpWlxkm7U-uDqGrLOWB_QTtHsPXP9u_8hwmC8" alt="img" style="zoom:50%;" />
-
-
-
-<img src="https://lh3.googleusercontent.com/jYSMtgd-ba9y5U36tzbvnfNQlpODGzikbY1p0wYem682NBm09qByGLuVxAVtzpV9APoQx_rNMeHoQ_GEy0XGbalLN38behgMf6iwCfrnYkMJZLnybkYqq9V757iG0RulJqxjJjUo1bw" alt="img" style="zoom:50%;" />
+<img style="float: left" src="/img/3.png" width="600" height="800">
 
 
 
@@ -72,7 +52,14 @@ Self-boarding students who have trouble following conventional recipes because t
 
 ## Individual Reflections
 
-(Nayeon Lee) I implemented the mechanisms of the Recipe Suggestion page and worked on its basic design. Deciding where to put the 'Add Set' button was more difficult than I expected. It was part of the Ingredients list in the Low-Fi prototype, but received feedback that it was hard to notice. Regarding code, making a function for deleting individual ingredients was quite complicated (in part because there were multiple ways to add ingredients). In the end I decided on making a clear button, since I couldn't decide which method(checkbox, search, add set) could be deleted without sacrificing functionality. The search function seemed like a must since even the most basic recipes need about 10 ingredients, and without it checkboxes would clutter the screen. The checkboxes were not only a way of adding ingredients but also a clue for the novice cooker; a blank screen wouldn't help him/her remember what is in the refrigerator. Perhaps the add set could be removed, but it was a way to reduce time and I wanted to see if the change in design would be helpful. As for implementation, I learned how to make modals while making functions related to the 'Add Set' and 'Suggest Recipe' buttons.
+#### Mingi Shin
+
+#### JoonYoung Keum
+
+#### Jaehun Kim
+
+#### Nayeon Lee
+I implemented the mechanisms of the Recipe Suggestion page and worked on its basic design. Deciding where to put the 'Add Set' button was more difficult than I expected. It was part of the Ingredients list in the Low-Fi prototype, but received feedback that it was hard to notice. Regarding code, making a function for deleting individual ingredients was quite complicated (in part because there were multiple ways to add ingredients). In the end I decided on making a clear button, since I couldn't decide which method(checkbox, search, add set) could be deleted without sacrificing functionality. The search function seemed like a must since even the most basic recipes need about 10 ingredients, and without it checkboxes would clutter the screen. The checkboxes were not only a way of adding ingredients but also a clue for the novice cooker; a blank screen wouldn't help him/her remember what is in the refrigerator. Perhaps the add set could be removed, but it was a way to reduce time and I wanted to see if the change in design would be helpful. As for implementation, I learned how to make modals while making functions related to the 'Add Set' and 'Suggest Recipe' buttons.
 
 
 
