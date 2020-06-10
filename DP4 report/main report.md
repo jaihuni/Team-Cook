@@ -64,6 +64,17 @@ Implemented mechanisms, ui elemnets for the recipe step management.
 And also, we did some discussions on the overall menu together.
 
 #### JoonYoung Keum
+Contributed to UI of the task 2, ingredients amount management.
+
+- Table of the ingredients and input box for each.
+- Select box for "Serving for n-people".
+- Button for modify confirmation.
+- Alert for user input exception.
+
+It was hard to place each element in appropriate position. Also, displaying default value while input is available was hard to design.
+
+One useful implementation skill I learned is making margins and paddings in balance with other elements.
+
 
 #### Jaehun Kim
 
@@ -73,7 +84,7 @@ I implemented the mechanisms of the Recipe Suggestion page and worked on its bas
 
 ## Studio Reflections
 
-#### Comments
+#### Feedback
 
 - Recipe Suggestion
 
@@ -101,27 +112,25 @@ I implemented the mechanisms of the Recipe Suggestion page and worked on its bas
 
 
 
-#### Solution Ideas
+#### Improvement Ideas
 
 - Recipe Suggestion
 
-(1) Give the user more guidance on measurements. (ex) 1 tablespoon = [photo of a spoon] = 3 teaspoons, spaghetti noodles for 1 person is approximately the amount you can wrap your thumb and forefinger around)
+  (1) Give user more detailed guidance on measurements. (e.g. 1 tablespoon = [photo of a spoon] = 3 teaspoons, spaghetti noodles for 1 person is approximately the amount you can wrap your thumb and forefinger around)
 
-(2) Provide information on the SETs option in the recipe suggestion page. (using ⓘ icon) Or  
+  (2) Provide information on the SETs option in the recipe suggestion page. (e.g. using ⓘ icon) 
 
-(3) Provide images of ingredients in the recipe suggestion page, preferably on the right side of ingredient names.
+  (3) Provide images of ingredients in the recipe suggestion page, preferably on the right side of ingredient names.
 
-(Recipe Optimizing 페이지에도 재료 사진이 지원되는 것이 나을까요?)
-
-
+  (4) Provide images of ingredients in the recipe optimization page, so user can easily recognize the ingredients.
 
 - Recipe Optimizing
 
-(idea) Keep the checkbox color consistent for both the 'Necessary' and 'Unnecessary' instructions (the gray-colored checkboxes of the 'Necessary' instructions may have confused some users), and remove the hover color-changing option for the 'Necessary' instructions (for additional differentiation). --> but I'm not sure if this would be less confusing than what we currently have; a user test would be nice
+  Keep the checkbox color consistent for both the 'Necessary' and 'Unnecessary' instructions (the gray-colored checkboxes of the 'Necessary' instructions may have confused some users), and remove the hover color-changing option for the 'Necessary' instructions (for additional differentiation). --> However we are not sure if this would be less confusing than what we currently have; user testing would be helpful to compare them.
 
 - Overall
 
-(idea) collapse the Other Recipe list in the Recipe Optimizing page (reduce one function that a user is less likely to immediately use)
+  Collapse the Other Recipe list in the Recipe Optimizing page (reduce one function that a user is less likely to immediately use).
 
-(idea) Put more space between the checkbox part and the 'Ingredients' list in the Recipe Suggestion page.
+  Put more space between the checkbox part and the 'Ingredients' list in the Recipe Suggestion page.
 
