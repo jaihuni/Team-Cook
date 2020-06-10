@@ -92,6 +92,19 @@ One useful implementation skill I learned is making margins and paddings in bala
 
 #### Jaehun Kim
 
+I implemented the overall design, macroscopic design like layout and home design. Also, I make other recipe list to fill margin and help user to be easy to move other recipe as user want. I drew the overall design, macroscopic design like layout and home design. And, I implement other recipe list to fill margin and help user to be easy to move other recipe as user want.
+
+- main blue title and lightgray framed template which use all page
+- homepage's(mainpage's) recipe suggestion and optimizing button
+- other recipe list
+- layout of all page (block dividing)
+
+There is some hard like unifing theme, or protrusion ui problem.
+
+But main hard point is fit UI depending on window size. I thought it is important to adjust UI to window size because our prototype consists of vertical boxes, so if not add adjusting size function it may cause a lot of margin.  But it is hard to implement because it need a lot of calculate to make layout. sometime it need to pixel scale margin, sometime it need percent scale margin.
+
+While I implement, I learned about semantic-UI newly. Also, I comprehended div and other components of html and css.
+
 #### Nayeon Lee
 Implemented the mechanisms of the Recipe Suggestion page and worked on its basic design (task 1).
 
