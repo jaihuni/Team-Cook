@@ -100,9 +100,16 @@ function clearIngredient() { //clear ingredient list
 }
 
 /* info_set */
-$('#info_set').hover(function () {
-    window.alert("info!");
+$(document).ready(function () {
+    var setInfo = document.getElementById("set-i");
+    $('#info_set').hover(function () {
+        setInfo.style.display = "block";
+    });
+    $('#set-i_close').click(function () {
+        setInfo.style.display = "none";
+    });
 });
+
 
 /* set-screen modal functions */
 $(document).ready(function () { //add new set
