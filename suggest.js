@@ -99,6 +99,11 @@ function clearIngredient() { //clear ingredient list
 //    document.getElementById('test').innerHTML = lst;
 }
 
+/* info_set */
+$('#info_set').hover(function () {
+    window.alert("info!");
+});
+
 /* set-screen modal functions */
 $(document).ready(function () { //add new set
     var newSetName = document.getElementById("new_set_name");
