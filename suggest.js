@@ -102,13 +102,16 @@ function clearIngredient() { //clear ingredient list
 /* info_set */
 $(document).ready(function () {
     var setInfo = document.getElementById("set-i");
+    var timer;
     $('#info_set').hover(function () { //when hovering for 0.5 or more seconds
-        setTimeout(function () { setInfo.style.display = "block"; }, 500);
+        timer = setTimeout(function () { setInfo.style.display = "block"; }, delay);
+//        setTimeout(function () { setInfo.style.display = "block"; }, 500);
     }, function () {
         setInfo.style.display = "none";
     });
     $('#set-i_close').click(function () {
         setInfo.style.display = "none";
+        clearTimeout(timer);
     });
 });
 
