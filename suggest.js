@@ -104,6 +104,8 @@ $(document).ready(function () {
     var setInfo = document.getElementById("set-i");
     $('#info_set').hover(function () {
         setInfo.style.display = "block";
+    }, function () {
+        setInfo.style.display = "none";
     });
     $('#set-i_close').click(function () {
         setInfo.style.display = "none";
