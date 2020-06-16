@@ -103,7 +103,7 @@ function clearIngredient() { //clear ingredient list
 $(document).ready(function () {
     var setInfo = document.getElementById("set-i");
     var timer;
-    var delay = 500;
+    var delay = 500000;
     $('#info_set').hover(function () { //when hovering for 0.5 or more seconds
         timer = setTimeout(function () { setInfo.style.display = "block"; }, delay);
 //        setTimeout(function () { setInfo.style.display = "block"; }, 500);
