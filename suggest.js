@@ -102,8 +102,8 @@ function clearIngredient() { //clear ingredient list
 /* info_set */
 $(document).ready(function () {
     var setInfo = document.getElementById("set-i");
-    $('#info_set').hover(function () {
-        setInfo.style.display = "block";
+    $('#info_set').hover(function () { //when hovering for 0.5 or more seconds
+        setTimeout(function () { setInfo.style.display = "block"; }, 500);
     }, function () {
         setInfo.style.display = "none";
     });
