@@ -1,13 +1,5 @@
 # Team Cook
 
-| P1   | P2                                                           |
-| ---- | ------------------------------------------------------------ |
-|      |                                                              |
-| P3   | P4<br/><img src="C:\Users\나연\cs374\Team-Cook\DP5 report\img\P4.jpg" style="zoom: 25%;" /> |
-|      | - Non-KAIST student, 2nd year<br/>- Friend of a teammate<br/>- Has never lived alone<br/>- Novice cooker<br/>- Almost always uses recipes, and follows them word-for-word |
-
-
-
 ## Written protocol
 
 ##### Introduction:
@@ -94,11 +86,11 @@ Thank you and have a nice day!
 
 #### Participants
 
-| **P1** |                                                              |
-| ------ | ------------------------------------------------------------ |
-| **P2** |                                                              |
-| **P3** |                                                              |
-| **P4** | - Non-KAIST student, 2nd year<br/>- Has never lived alone<br/>- Novice cooker<br/>- Usually cooks servings for 1~2 people<br/>- Almost always uses recipes<br/>- Follows recipes word-for-word |
+| **P1**                                                       |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **P2**                                                       |                                                              |
+| **P3**                                                       |                                                              |
+| P4**<br/>**<img src="C:\Users\나연\cs374\Team-Cook\DP5 report\img\P4.jpg" alt="P4" style="zoom:25%;" /> | - Non-KAIST student, 2nd year<br/>- Has never lived alone<br/>- Novice cooker<br/>- Usually cooks servings for 1~2 people<br/>- Almost always uses recipes<br/>- Follows recipes word-for-word |
 
 (어느 쪽이 더 좋을지 몰라서 둘 다 만들어봤습니다)
 
