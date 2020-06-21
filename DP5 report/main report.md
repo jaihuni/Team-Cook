@@ -94,21 +94,37 @@ Thank you and have a nice day!
 
 (어느 쪽이 더 좋을지 몰라서 둘 다 만들어봤습니다)
 
-| P1     | P2                                                           |
-| ------ | ------------------------------------------------------------ |
-|        |                                                              |
-| **P3** | **P4**                                                       |
-|        | - Non-KAIST student, 2nd year<br/>- Has never lived alone<br/>- Novice cooker<br/>- Usually cooks servings for 1~2 people<br/>- Almost always uses recipes<br/>- Follows recipes word-for-word |
+| P1                                                           | P2                                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+|                                                              |                                                              |
+| **P3**                                                       | **P4**                                                       |
+| - KAIST student, 4th year<br />- Living alone for 4 months<br />- Novice cooker<br />- Usually cooks servings for 1~2 people<br />- Almost always uses recipes<br />- Likely to follow recipes word-for-word(4/5) | - Non-KAIST student, 2nd year<br/>- Has never lived alone<br/>- Novice cooker<br/>- Usually cooks servings for 1~2 people<br/>- Almost always uses recipes<br/>- Follows recipes word-for-word |
 
 
 
 #### Session Summaries
 
-P1
+##### P1
 
-P2
+##### P2
 
-P3
+##### P3
+
+- It's uncertain in which way the user can get "Recipe Optimizing"? (e.g. Ingredients, budgets, allergic, ...)
+- Two "Recipe Suggestion" buttons are unnecessary
+- It's not sure what is the benefit of having "Set" feature
+- The purpose of "Modify Amount" button is not obvious
+- The user would not know exact amount of ingredients in grams
+- The purpose of gray checkboxes is not obvious. They bother users and the necessary steps are not emphasized.
+- It would be better if the important ingredients are colored or emphasized in the steps.
+- Better if the recipe is more detailed, for novice cookers.
+- Better if the steps involving the non-necessary ingredients go out from the recipe, in the case the user typed 0 for those ingredients.
+- Better if the steps are categorized based on the way of cooking
+- Tried to go back by pressing the header, but couldn't
+
+[Interview Questions]
+
+- How about adding Personal Preference feature?
 
 ##### P4
 
