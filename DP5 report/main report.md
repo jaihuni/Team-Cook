@@ -1,66 +1,69 @@
 # Team Cook
 
-## Written protocol
+## Written Protocol
 
-##### Introduction:
+#### Instructions for preparation and setting up the testing environment
+
+Before we start, you need to use Zoom for sharing screen, and we recommend to use Chrome. If Chrome is not available, you can use any web browser you want. When the browser is ready, please open the prototype URL : https://jaihuni.github.io/Team-Cook/
+
+#### Introduction
 
 This is a part of a project for the Human-Computer Interaction class in KAIST. This project made a new recipe web for self-boarding students who are novice cookers. Thank you for agreeing to test our team’s prototype. Please find and tell lot of things as you find as possible.
 
-##### Informed consent:
+#### Informed consent
 
 We will record your shared screen and voice. This will only be used to improve our product, and not revealed to anybody outside our team. May we have your consent?
 
 (after the participant agrees) If you want to stop for whatever reason, please tell us. Also if you have any question, you are always free to ask. If it cannot be answered during the test, we will answer after the test is over.
 
-##### Task: 
+#### Tasks
 
-Currently you have bacon, onion, garlic, tomato sauce, etc. in your refrigerator. In your cupboard you have spaghetti noodles, salt, olive oil, canola oil, etc..
+Currently you have bacon, onion, garlic, tomato sauce in your refrigerator. In your cupboard, you have spaghetti noodle, salt, olive oil, canola oil.
 
-You're hungry, and have about an hour before you have to leave. And you're tired of eating ordered food.
+You are hungry and have about an hour before you have to leave. Also, you are tired of eating ordered food.
 
-So this program, which suggests recipes based on the ingredients and then helps you modify the recipe, comes to mind.
+Then, you come up with our web page, which suggests recipes based on the ingredients and helps you modify the recipe.
 
+Now, you will go through the 3 tasks. 
 
+Task 1, the goal of the task 1 is receiving suggested recipe based on your ingredient input.
 
 (If the user is stuck)
+Go to the recipe suggestion page. Then, input the ingredients you want, and click the suggested recipe.
 
-task 1: Go to the recipe suggestion page. Assume that you have spaghetti noodle, bacon, onion, and garlic. Then, input the ingredients you want, and click the suggested recipe.
+Task 2, the goal of the task 2 is receiving optimized amount of ingredients based on your current having.
 
-task 2: The goal of the task 2 is receiving optimized amount of ingredients based on the user input. Go to the recipe optimization page. First, select the number of people that you want to serve. Next, input the amount of ingredients as you want, then receive optimized amount. 
+(If the user is stuck)
+Go to the recipe optimization page. First, select the number of people that you want to serve. Next, input the amount of ingredients as you have, then receive optimized amount. 
 
-task 3: The goal of the task 3 is receiving an optimized recipe based on the user input. Assume that you want to reduce time spending on the cooking. First, exclude the steps that you do not want to do. Next, input the time that you want to spend on the cooking, then receive an optimized recipe.
+Task 3, the goal of the task 3 is receiving an optimized recipe steps based on your input. 
 
+(If the user is stuck)
+First, exclude the steps that you do not want to do. Next, input the time that you want to spend on the cooking, then receive an optimized recipe steps.
 
+#### Recording strategy
 
-##### Interview questions:
+We will record our participants’ screen and voice during the usability test. Observers will also take written notes. 
+
+JoonYoung Keum will be the facilitator, and Mingi Shin, Jaehun Kim, and Nayeon Lee will be the observers.
+
+#### Interview questions
 
 1. Were there any UI problems that you faced?
-
 2. Was each UI’s role clear? If not, which parts did you find confusing?
-
 3. Are there any functions you’d like added?
-
 4. Have you ever lived alone? If so, for how long?
-
 5. How often do you cook?
-
-   
 
    (If the answer to question 5 isn’t “never”)
 
 6. What is the usual(or average) amount of food you cook? (unit: for ? person(s))
-
 7. Would you call yourself a novice cooker?
-
 8. When do you use recipes? (never / when trying something new or unfamiliar / when cooking for someone else /almost always)
-
 9. How strictly do you follow recipes on a scale of 1 to 5? 
-
 (just the basic ingredients) 1 2 3 4 5 (word-for-word)
 
-
-
-##### Debriefing:
+#### Debriefing
 
 The test is over. Thanks again for your time.
 
@@ -79,7 +82,6 @@ Is it okay?
 Okay. I’m ending the recording here. Now you can leave the session.
 
 Thank you and have a nice day!
-
 
 
 ## Session Observations
@@ -146,7 +148,7 @@ Thank you and have a nice day!
 
 
 
-## Usability lessons
+## Usability Lessons
 
 #### Usability Problems
 
