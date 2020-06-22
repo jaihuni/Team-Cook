@@ -88,27 +88,29 @@ Thank you and have a nice day!
 
 #### Participants
 
-| **P1**                                                       |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **P2**                                                       |                                                              |
-| **P3**                                                       |                                                              |
-| P4**<br/>**<img src="C:\Users\나연\cs374\Team-Cook\DP5 report\img\P4.jpg" alt="P4" style="zoom:25%;" /> | - Non-KAIST student, 2nd year<br/>- Has never lived alone<br/>- Novice cooker<br/>- Usually cooks servings for 1~2 people<br/>- Almost always uses recipes<br/>- Follows recipes word-for-word |
-
-(어느 쪽이 더 좋을지 몰라서 둘 다 만들어봤습니다)
-
-| P1                                                           | P2                                                           |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              |                                                              |
-| **P3**                                                       | **P4**                                                       |
-| - KAIST student, 4th year<br />- Living alone for 4 months<br />- Novice cooker<br />- Usually cooks servings for 1~2 people<br />- Almost always uses recipes<br />- Likely to follow recipes word-for-word(4/5) | - Non-KAIST student, 2nd year<br/>- Has never lived alone<br/>- Novice cooker<br/>- Usually cooks servings for 1~2 people<br/>- Almost always uses recipes<br/>- Follows recipes word-for-word |
-
-
+| **P1**                                                 |                                                              |
+| ------------------------------------------------------ | ------------------------------------------------------------ |
+| **P2**<img src="/img/P2.png" width="400" height="400"> | - Non-KAIST student, 1st year<br>- Living alone from this year<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word(4/5) |
+| **P3**                                                 | - KAIST student, 4th year<br>- Living alone for 4 months<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Likely to follow recipes word-for-word(4/5) |
+| **P4**<img src="/img/P4.jpg" width="400" height="400"> | - Non-KAIST student, 2nd year<br>- Has never lived alone<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word |
 
 #### Session Summaries
 
 ##### P1
 
 ##### P2
+
+- Two Recipe Suggestion button(up and middle) is confusing
+- Function of Add Set button is not clear(thought that check ingredients than click the button)
+- Could not recognize a difference between suggested recipes and other recipe list in the right side
+- Hard to input the exact amount of ingredients user has
+- Function of Modify Amount button is not clear(time lag between finishing input amount and clicking Modify Amount button)
+- A difference between necessary/optional steps is not clear(user clicked both one even though there was a color difference between them)
+
+[Interview Questions]
+
+- Design of the other recipe list is bothering
+- Better to make header button to go back home
 
 ##### P3
 
