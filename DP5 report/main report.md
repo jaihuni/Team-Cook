@@ -90,11 +90,11 @@ Thank you and have a nice day!
 
 #### Participants
 
-| **P1**![P1](\img\P1.jpg)                               | - KNU student, 3rd year<br/>- Not living alone but usually cooking for himself<br/>- Novice cooker<br/>- Usually cooks servings for 1 person<br/>- Almost always uses recipes<br/>- Follows recipes word-for-word |
+| **P1**<img src="\img\P1.jpg" width="400" height="400"> | - KNU student, 3rd year<br>- Not living alone but usually cooking for himself<br>- Novice cooker<br>- Usually cooks servings for 1 person<br>- Almost always uses recipes<br>- Follows recipes word-for-word |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
-| **P2**<img src="/img/P2.png" width="400" height="400"> | - Non-KAIST student, 1st year<br>- Living alone from this year<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word(4/5) |
-| **P3**                                                 | - KAIST student, 4th year<br>- Living alone for 4 months<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Likely to follow recipes word-for-word(4/5) |
-| **P4**<img src="/img/P4.jpg" width="400" height="400"> | - Non-KAIST student, 2nd year<br>- Has never lived alone<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word |
+| **P2**<img src="/img/P2.png" width="400" height="400"> | **- Non-KAIST student, 1st year<br>- Living alone from this year<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word(4/5)** |
+| **P3**                                                 | **- KAIST student, 4th year<br>- Living alone for 4 months<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Likely to follow recipes word-for-word(4/5)** |
+| **P4**<img src="/img/P4.jpg" width="400" height="400"> | **- Non-KAIST student, 2nd year<br>- Has never lived alone<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word** |
 
 #### Session Summaries
 
