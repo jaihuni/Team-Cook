@@ -149,7 +149,7 @@ Thank you and have a nice day!
 
 - Faced other usability problems including not realizing the cooking time bar could be moved (Listed in the Usability lessons).
 
-  [Interview Questions]
+[Interview Questions]
 
 - Wanted to know why there were checkboxes next to the necessary instructions, and wanted explanations about the checkboxes.
 
@@ -169,13 +169,13 @@ Thank you and have a nice day!
 - Going Home or previous page does not work as user's intention. (P1, P2, P3 / High)
 - It is hard to notice what recipe the user is watching currently. (P1 / Medium)
 
-##### Recipe Suggestion page
+##### Recipe Suggestion Page
 
 - The title 'Recipe Finding' confused user in terms of the purpose. (P4 / Low)
 - It is hard to notice the role of 'Add Set' button. (P2, P3, P4 / High)
 - Purpose of 'Other Recipe List' is unclear. (P1, P2 / Low)
 
-##### Recipe Optimizing page
+##### Recipe Optimizing Page
 
 - The title 'Recipe Optimizing' confuse user in terms of the purpose. (P3 / Low)
 - It is hard to notice the role of 'Modify Amount' button. (P1, P2, P3 / High)
@@ -189,7 +189,7 @@ Thank you and have a nice day!
 
 - Users frequently go ahead of the guidance, or fall behind of it while not knowing what to do.
 - Our purpose of UIs could be misunderstood by users. With developer's sight, we could not understand why users do not understand our intention, but users are always right. For better result, it might helpful to think in user's viewpoint and do user tests from earlier stage.
-- Providing users with too many ways to reach the same destination could confuse the user, or lead to some options being completely ignored, making the interface inefficient.
+- Providing users too many ways to reach the same destination could confuse the user, or lead to some options being completely ignored, making the interface inefficient.
 
 
 ## Studio Reflections
@@ -224,15 +224,19 @@ About feedbacks for UI, we will address it in next part.
 
 ## Plan for Iteration
 
-(1) Recipe Suggestion page
+(1) Overall UI
 
-- Delete the Add Set function; it seems useless.
-  - The add set button is efficient when adding many types of materials, but only a small number of materials were added during actual testing. If this function is developed, it is not exposed at first. But if the user selects more than a certain number of types of materials, it can be added as a recommended function.
-- 
+- Add a function to go home or previous page.
+  - A lot of users complained that there is no button to go home or previous page. We relized that user wants to actively move page, not staying at same page. Therefore, adding the function will provide user more satisfied experience.
 
-(2) Recipe Optimizing page
+(2) Recipe Suggestion Page
 
-- Put the ingredient units on the right side of the boxes(?) (ex) Spaghetti Noodle |250| (g)
+- Delete the 'Add Set' function; it seems useless.
+  - The 'Add Set' button is efficient when adding many types of materials, but few types of materials were added during actual testing. When we decide to add the button again later, it will be better to not expose at first. When the user selects more than a certain number of types of materials, it can be displayed as a recommended function.
+
+(3) Recipe Optimizing Page
+
+- Place a text "Amount" above the amount input boxes.
+  - Some users thought that the amount input boxes are displaying other information as calories. Also, currently it is hard for users to recognize what they have to do at a glance. Placing a text "Amount" will provide user better confidence with their action.
+- Amount Modify
 - For the necessary instructions, put cubes without the checkmark, instead of checkboxes.
-
-(3) 
