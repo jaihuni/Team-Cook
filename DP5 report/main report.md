@@ -67,21 +67,13 @@ JoonYoung Keum will be the facilitator, and Mingi Shin, Jaehun Kim, and Nayeon L
 
 The test is over. Thanks again for your time.
 
-Again, this test was about usability of our project prototype, new recipe site for the self-boarding students.
-
-Your interview would be very helpful to us to find improvements from it.
+Again, this test was about usability of our project prototype, new recipe site for the self-boarding students. Your interview would be very helpful to us to find improvements from it.
 
 Is there any question, or anything you want to say?
 
-I want to notify that the recording of this session will be used only for finding improvements among the team members, not sharing with others.
+I want to notify that the recording of this session will be used only for finding improvements among the team members, not sharing with others. Some findings from the session could be shared with the CS374 class. Is it okay?
 
-Some findings from the session could be shared with the CS374 class.
-
-Is it okay?
-
-Okay. I’m ending the recording here. Now you can leave the session.
-
-Thank you and have a nice day!
+Okay. I’m ending the recording here. Now you can leave the session. Thank you and have a nice day!
 
 
 ## Session Observations
@@ -163,27 +155,27 @@ Thank you and have a nice day!
 
 ##### Overall UI
 
-- In small window, some UIs are overlaped. (P1 / Low)
+- In small window, some UIs are overlapped. (P1 / Low)
 - The meaning of 'Recipe Suggestion' is ambiguous. (P3 / Low)
 - Two 'Recipe Suggestion' button confuse user. (P2, P3 / Medium)
-- Going Home or previous page does not work as user's intention. (P1, P2, P3 / High)
+- Going Home or previous page does not work as user's intention. (P1, P2, P3 / **High**)
 - It is hard to notice what recipe the user is watching currently. (P1 / Medium)
 
 ##### Recipe Suggestion Page
 
 - The title 'Recipe Finding' confused user in terms of the purpose. (P4 / Low)
-- It is hard to notice the role of 'Add Set' button. (P2, P3, P4 / High)
+- It is hard to notice the role of 'Add Set' button. (P2, P3, P4 / **High**)
 - Purpose of 'Other Recipe List' is unclear. (P1, P2 / Low)
 
 ##### Recipe Optimizing Page
 
 - The title 'Recipe Optimizing' confuse user in terms of the purpose. (P3 / Low)
-- It is hard to notice the role of 'Modify Amount' button. (P1, P2, P3 / High)
+- It is hard to notice the role of 'Modify Amount' button. (P1, P2, P3 / **High**)
 - Not enough explanation of the amount optimization. (P4 / Medium)
 - It is hard to notice that 'Cooking Time' bar could be manipulated. (P4 /Low)
 - Meaning of the numbers on either side of the 'Cooking Time' bar is unclear. (P4 / Low)
 - Meaning of the numbers next to the ingredients is unclear. (P4 / Medium)
-- Purpose of the checkbox is unclear, and it is hard to notice a difference between gray/blue checkbox. (P1, P2, P3, P4 / High)
+- Purpose of the checkbox is unclear, and it is hard to notice a difference between gray/blue checkbox. (P1, P2, P3, P4 / **High**)
 
 #### High-level Reflections
 
@@ -227,7 +219,7 @@ About feedbacks for UI, we will address it in next part.
 (1) Overall UI
 
 - Add a function to go home or previous page.
-  - A lot of users complained that there is no button to go home or previous page. We relized that user wants to actively move page, not staying at same page. Therefore, adding the function will provide user more satisfied experience.
+  - A lot of users complained that there is no button to go home or previous page. We realized that user wants to actively move page, not staying at same page. Therefore, adding the function will provide user more satisfied experience.
 
 (2) Recipe Suggestion Page
 
@@ -238,5 +230,10 @@ About feedbacks for UI, we will address it in next part.
 
 - Place a text "Amount" above the amount input boxes.
   - Some users thought that the amount input boxes are displaying other information as calories. Also, currently it is hard for users to recognize what they have to do at a glance. Placing a text "Amount" will provide user better confidence with their action.
-- Amount Modify
-- For the necessary instructions, put cubes without the checkmark, instead of checkboxes.
+- Improve delivery of the UI elements for "Modify Amount" feature
+  - grey out the default amount
+  - move "Modify Amount" below the list of ingredients
+  - change the label title other than "Modify Amount"
+  - enable the button with some animation after user types some amount
+  - We will try various combinations of the solution above, and see which is working.
+- For the essential instructions, put cubes without the checkmark, instead of checkboxes.
