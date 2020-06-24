@@ -204,4 +204,4 @@ Thank you and have a nice day!
 (2) Recipe Optimizing page
 
 - Put the ingredient units on the right side of the boxes(?) (ex) Spaghetti Noodle |250| (g)
-- For the necessary instructions, put cubes without the checkmark(?)
+- For the necessary instructions, put cubes without the checkmark, instead of checkboxes.
