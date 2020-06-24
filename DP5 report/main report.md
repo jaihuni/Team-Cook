@@ -227,7 +227,7 @@ About feedbacks for UI, we will address it in next part.
 (1) Overall UI
 
 - Add a function to go home or previous page.
-  - A lot of users complained that there is no button to go home or previous page. We relized that user wants to actively move page, not staying at same page. Therefore, adding the function will provide user more satisfied experience.
+  - A lot of users complained that there is no button to go home or previous page. We relized that user wants to actively move page, not staying at same page. Therefore, adding the function will provide a user more satisfied experience.
 
 (2) Recipe Suggestion Page
 
@@ -237,6 +237,8 @@ About feedbacks for UI, we will address it in next part.
 (3) Recipe Optimizing Page
 
 - Place a text "Amount" above the amount input boxes.
-  - Some users thought that the amount input boxes are displaying other information as calories. Also, currently it is hard for users to recognize what they have to do at a glance. Placing a text "Amount" will provide user better confidence with their action.
-- Amount Modify
-- For the necessary instructions, put cubes without the checkmark, instead of checkboxes.
+  - Some users thought that the amount input boxes are displaying other information as calories. Also, currently it is hard for users to recognize what they have to do at a glance. Placing a text "Amount" will provide a user better confidence with their action.
+- Place 'Modify Amount' button at bottom, and add some visual effect when a user enter a number in the input boxes.
+  - 'Modify Amount' button placed at top is not noticeable when a user finish input. It must be better to place at bottom so that a user can easily notice the button. Also, visual effect could lead a user to click the button. These will provide a user better learnability.
+- Beside the necessary steps, place a colored square without a checkmark instead of a checkbox. 
+  - Currently, purpose of the checkbox is unclear and user has a trouble with noticing a difference between necessary/optional steps. Rather than placing a checkmark beside every step, placing only beside the optional steps will make user easier to notice that the user can manipulate steps with a checkmark. This will provide a user better learnability.
