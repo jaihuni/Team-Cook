@@ -198,9 +198,18 @@ Thank you and have a nice day!
 
 [TA/Eunyoung] It is good that you prepared many questionnaires on usability. It’d be great to ask about their experience overall -- not just on the usability dimension but on general, say, uploading/input task or the refinement task+ Getting feedback on potential improvement direction can be helpful as well.
 
- [TA/Eunyoung] Providing a detailed instruction is good to guide users but might reduce the opportunity of user to explore the system. It’d be great if you can prepare a less detailed instruction and provide it first, and if the user is not sure what to do after some time, you can provide a detailed one! 
+[TA/Eunyoung] Providing a detailed instruction is good to guide users but might reduce the opportunity of user to explore the system. It’d be great if you can prepare a less detailed instruction and provide it first, and if the user is not sure what to do after some time, you can provide a detailed one! 
 
-[Studio Pilot Session] It is better to assume a specific situation before running a test, so that user can behave as an actual user. 
+[First Pilot Testing Peer]
+
+- In task 2 (in recipe optimizing page), it is hard to recognize role of 'Modify Amount' button and table.
+- It is hard to go back previous page.
+
+[Second Pilot Testing Peer]
+
+- In task 3 (in recipe optimizing page), it is hard to recognize mean of numbers next to the bar. After few minutes, tester recognized the meaning herself.
+- It is hard to go back previous page.
+- It is better to assume a specific situation before running a test, so that user can behave as an actual user. 
 
 #### Improvement
 
@@ -216,9 +225,12 @@ After each participant was finished, we asked them what they liked and found con
 (1) Recipe Suggestion page
 
 - Delete the Add Set function; it seems useless.
+  - The add set button is efficient when adding many types of materials, but only a small number of materials were added during actual testing. If this function is developed, it is not exposed at first. But if the user selects more than a certain number of types of materials, it can be added as a recommended function.
 - 
 
 (2) Recipe Optimizing page
 
 - Put the ingredient units on the right side of the boxes(?) (ex) Spaghetti Noodle |250| (g)
 - For the necessary instructions, put cubes without the checkmark, instead of checkboxes.
+
+(3) 
