@@ -84,8 +84,6 @@ Okay. I’m ending the recording here. Now you can leave the session.
 Thank you and have a nice day!
 
 
-
-
 ## Session Observations
 
 #### Participants
@@ -159,7 +157,6 @@ Thank you and have a nice day!
 - Liked the recipe modifying function; found it a nice improvement to the Youtube recipes that often provided vague explanations, especially regarding (overall) cooking time and necessary/optional cooking steps.
 
 
-
 ## Usability Lessons
 
 #### Usability Problems
@@ -195,23 +192,23 @@ Thank you and have a nice day!
 - Providing users with too many ways to reach the same destination could confuse the user, or lead to some options being completely ignored, making the interface inefficient.
 
 
-
 ## Studio Reflections
 
 #### Feedback
 
 [TA/Eunyoung] It is good that you prepared many questionnaires on usability. It’d be great to ask about their experience overall -- not just on the usability dimension but on general, say, uploading/input task or the refinement task+ Getting feedback on potential improvement direction can be helpful as well.
 
-  Providing a detailed instruction is good to guide users but might reduce the opportunity of user to explore the system. It’d be great if you can prepare a less detailed instruction and provide it first, and if the user is not sure what to do after some time, you can provide a detailed one! 
+ [TA/Eunyoung] Providing a detailed instruction is good to guide users but might reduce the opportunity of user to explore the system. It’d be great if you can prepare a less detailed instruction and provide it first, and if the user is not sure what to do after some time, you can provide a detailed one! 
 
+[Studio Pilot Session] It is better to assume a specific situation before running a test, so that user can behave as an actual user. 
 
+#### Improvement
 
-#### Improvement Ideas
+Considering the feedbacks from studio, we improved our written protocol.
 
-During the testing sessions, we first presented users with a situation, then gave them goals to accomplish on each page. When the user was stuck - for example, P4 didn't realize that the cooking time could be manipulated - we gave them the more detailed instructions that are written above.
+During the user test, we first described a hypothetic user situation. Then, gave them goal of each task rather than instruct detailed steps. When the user was stuck - for example, P4 did not realize that 'Cooking Time' bar could be manipulated - we gave them detailed instructions that are written above.
 
 After each participant was finished, we asked them what they liked and found confusing about the UI. We also asked for advice on improving the interface.
-
 
 
 ## Plan for Iteration
