@@ -91,10 +91,10 @@ Thank you and have a nice day!
 #### Participants
 
 | **P1**<br><img src="\img\P1.jpg" width="400" height="400"> | - KNU student, 3rd year<br>- Not living alone but usually cooking for himself<br>- Novice cooker<br>- Usually cooks servings for 1 person<br>- Almost always uses recipes<br>- Follows recipes word-for-word |
-| ------------------------------------------------------ | ------------------------------------------------------------ |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
 | **P2**<br><img src="/img/P2.png" width="400" height="400"> | **- Non-KAIST student, 1st year<br>- Living alone from this year<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word(4/5)** |
 | **P3**<br><img src="/img/P3.jpg" width="400" height="400"> | **- KAIST student, 4th year<br>- Living alone for 4 months<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Likely to follow recipes word-for-word(4/5)** |
-| **P4**<br><img src="/img/P4.jpg" width="400" height="400"> | **- Non-KAIST student, 2nd year<br>- Has never lived alone<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word** |
+| **P4**<br><img src="/img/P4.jpg" width="400" height="400"> | **- Non-KAIST student, 2nd year<br>- Has never lived alone<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word(5/5)** |
 
 #### Session Summaries
 
@@ -144,13 +144,17 @@ Thank you and have a nice day!
 ##### P4
 
 - Had trouble using the Recipe Optimizing page, and was given task2 and task3 instructions by the facilitator.
+
 - In the recipe suggestion page, thought the search meant "search for recipes" and typed 'spaghetti' in the search input. Realized it meant searching for ingredients when 'spaghetti' appeared in the ingredient list.
+
 - Tried manipulating the amount of ingredients(spaghetti noodles) and then clicking the Modify Amount button. The spaghetti noodle reverted back to its original amount (250).
+
 - Faced other usability problems including not realizing the cooking time bar could be moved (Listed in the Usability lessons).
 
   [Interview Questions]
 
 - Wanted to know why there were checkboxes next to the necessary instructions, and wanted explanations about the checkboxes.
+
 - As a novice cooker, often wants "good enough to eat" recipes. Occasionally watches and imitates Youtube cooking videos.
 - Liked the recipe modifying function; found it a nice improvement to the Youtube recipes that often provided vague explanations, especially regarding (overall) cooking time and necessary/optional cooking steps.
 
@@ -190,7 +194,23 @@ Thank you and have a nice day!
 - Our purpose of UIs could be misunderstood by users. With developer's sight, we could not understand why users do not understand our intention, but users are always right. For better result, it might helpful to think in user's viewpoint and do user tests from earlier stage.
 - Providing users with too many ways to reach the same destination could confuse the user, or lead to some options being completely ignored, making the interface inefficient.
 
+
+
 ## Studio Reflections
+
+#### Feedback
+
+[TA/Eunyoung] It is good that you prepared many questionnaires on usability. It’d be great to ask about their experience overall -- not just on the usability dimension but on general, say, uploading/input task or the refinement task+ Getting feedback on potential improvement direction can be helpful as well.
+
+  Providing a detailed instruction is good to guide users but might reduce the opportunity of user to explore the system. It’d be great if you can prepare a less detailed instruction and provide it first, and if the user is not sure what to do after some time, you can provide a detailed one! 
+
+
+
+#### Improvement Ideas
+
+During the testing sessions, we first presented users with a situation, then gave them goals to accomplish on each page. When the user was stuck - for example, P4 didn't realize that the cooking time could be manipulated - we gave them the more detailed instructions that are written above.
+
+After each participant was finished, we asked them what they liked and found confusing about the UI. We also asked for advice on improving the interface.
 
 
 
