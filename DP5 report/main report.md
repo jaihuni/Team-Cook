@@ -90,52 +90,52 @@ Thank you and have a nice day!
 
 #### Participants
 
-| **P1**<img src="\img\P1.jpg" width="400" height="400"> | - KNU student, 3rd year<br>- Not living alone but usually cooking for himself<br>- Novice cooker<br>- Usually cooks servings for 1 person<br>- Almost always uses recipes<br>- Follows recipes word-for-word |
+| **P1**<br><img src="\img\P1.jpg" width="400" height="400"> | - KNU student, 3rd year<br>- Not living alone but usually cooking for himself<br>- Novice cooker<br>- Usually cooks servings for 1 person<br>- Almost always uses recipes<br>- Follows recipes word-for-word |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
-| **P2**<img src="/img/P2.png" width="400" height="400"> | **- Non-KAIST student, 1st year<br>- Living alone from this year<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word(4/5)** |
-| **P3**![](img/P3.jpg)                                  | **- KAIST student, 4th year<br>- Living alone for 4 months<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Likely to follow recipes word-for-word(4/5)** |
-| **P4**<img src="/img/P4.jpg" width="400" height="400"> | **- Non-KAIST student, 2nd year<br>- Has never lived alone<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word** |
+| **P2**<br><img src="/img/P2.png" width="400" height="400"> | **- Non-KAIST student, 1st year<br>- Living alone from this year<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word(4/5)** |
+| **P3**<br><img src="/img/P3.jpg" width="400" height="400"> | **- KAIST student, 4th year<br>- Living alone for 4 months<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Likely to follow recipes word-for-word(4/5)** |
+| **P4**<br><img src="/img/P4.jpg" width="400" height="400"> | **- Non-KAIST student, 2nd year<br>- Has never lived alone<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word** |
 
 #### Session Summaries
 
 ##### P1
 
-- Sometimes he didn't understand the recipe steps.
-- Mean of "Modify amount" button is confused.
-- In small window, some UIs are overlaped.
-- The purpose of gray checkboxes in steps cell is not obvious. 
+- Sometimes the user did not understand the recipe steps.
+- Mean of "Modify amount" button is confusing.
+- In small window, some UIs are overlapped.
+- The purpose of gray checkboxes in the steps is not obvious.
 - Going to previous page key is not working.
-- If there is more ingredients in suggestion page, there may exist unknown ingredients.
-- It is hard to notice what recipe I see.
-- In recipe suggestion, other recipe list is unclear what it means.
+- If there are more ingredients in suggestion page, there may exist unknown ingredients.
+- It is hard to notice what recipe the user is watching.
+- In recipe suggestion, purpose of the other recipe list is unclear.
 
 ##### P2
 
-- Two Recipe Suggestion button(up and middle) is confusing
-- Function of Add Set button is not clear(thought that check ingredients than click the button)
-- Could not recognize a difference between suggested recipes and other recipe list in the right side
-- Hard to input the exact amount of ingredients user has
-- Function of Modify Amount button is not clear(time lag between finishing input amount and clicking Modify Amount button)
-- A difference between necessary/optional steps is not clear(user clicked both one even though there was a color difference between them)
+- Two Recipe Suggestion button(up and middle) is confusing.
+- Function of Add Set button is not clear(thought that check ingredients than click the button).
+- Could not recognize a difference between suggested recipes and other recipe list in the right side.
+- Hard to input the exact amount of ingredients user has.
+- Function of Modify Amount button is not clear(time lag between finishing input amount and clicking Modify Amount button).
+- A difference between necessary/optional steps is not clear(user clicked both one even though there was a color difference between them).
 
 [Interview Questions]
 
-- Design of the other recipe list is bothering
-- Better to make header button to go back home
+- Design of the other recipe list is bothering.
+- Better to make header button to go back home.
 
 ##### P3
 
 - It's uncertain in which way the user can get "Recipe Optimizing"? (e.g. Ingredients, budgets, allergic, ...)
-- Two "Recipe Suggestion" buttons are unnecessary
-- It's not sure what is the benefit of having "Set" feature
-- The purpose of "Modify Amount" button is not obvious
-- The user would not know exact amount of ingredients in grams
+- Two "Recipe Suggestion" buttons are unnecessary.
+- It's not sure what is the benefit of having "Set" feature.
+- The purpose of "Modify Amount" button is not obvious.
+- The user would not know exact amount of ingredients in grams.
 - The purpose of gray checkboxes is not obvious. They bother users and the necessary steps are not emphasized.
 - It would be better if the important ingredients are colored or emphasized in the steps.
 - Better if the recipe is more detailed, for novice cookers.
 - Better if the steps involving the non-necessary ingredients go out from the recipe, in the case the user typed 0 for those ingredients.
-- Better if the steps are categorized based on the way of cooking
-- Tried to go back by pressing the header, but couldn't
+- Better if the steps are categorized based on the way of cooking.
+- Tried to go back by pressing the header, but couldn't.
 
 [Interview Questions]
 
@@ -144,19 +144,14 @@ Thank you and have a nice day!
 ##### P4
 
 - Had trouble using the Recipe Optimizing page, and was given task2 and task3 instructions by the facilitator.
-
 - In the recipe suggestion page, thought the search meant "search for recipes" and typed 'spaghetti' in the search input. Realized it meant searching for ingredients when 'spaghetti' appeared in the ingredient list.
-
 - Tried manipulating the amount of ingredients(spaghetti noodles) and then clicking the Modify Amount button. The spaghetti noodle reverted back to its original amount (250).
-
-- Faced other usability problems including not realizing the cooking time bar could be moved. (Listed in the Usability lessons)
+- Faced other usability problems including not realizing the cooking time bar could be moved (Listed in the Usability lessons).
 
   [Interview Questions]
 
 - Wanted to know why there were checkboxes next to the necessary instructions, and wanted explanations about the checkboxes.
-
 - As a novice cooker, often wants "good enough to eat" recipes. Occasionally watches and imitates Youtube cooking videos.
-
 - Liked the recipe modifying function; found it a nice improvement to the Youtube recipes that often provided vague explanations, especially regarding (overall) cooking time and necessary/optional cooking steps.
 
 
@@ -167,31 +162,38 @@ Thank you and have a nice day!
 
 ##### Overall UI
 
-- The meaning of 'Recipe Suggestion' is ambiguous. (P3)
-- Two identical 'Recipe Suggestion' button confuse user. (P3)
-- Going to Home or previous page does not work as user's intention (P3)
+- In small window, some UIs are overlaped. (P1 / Low)
+- The meaning of 'Recipe Suggestion' is ambiguous. (P3 / Low)
+- Two 'Recipe Suggestion' button confuse user. (P2, P3 / Medium)
+- Going Home or previous page does not work as user's intention. (P1, P2, P3 / High)
+- It is hard to notice what recipe the user is watching currently. (P1 / Medium)
 
 ##### Recipe Suggestion page
 
-- Thought the 'Recipe Finding' title above the Search input meant that the user should search for recipes, instead of ingredients. (P4)
-- Didn't notice the Add Set function. (P4)
+- The title 'Recipe Finding' confuse user in terms of the purpose. (P4 / Low)
+- It is hard to notice the role of 'Add Set' button. (P2, P3, P4 / High)
+- Purpose of 'Other Recipe List' is unclear. (P1, P2 / Low)
 
 ##### Recipe Optimizing page
 
-- Didn't realize the Cooking Time bar could be moved. (P4)
-- Didn't notice the numbers on either side of the Cooking Time bar (26, 36) meant the maximum and minimum cooking time. (P4)
-- Initially thought the numbers next to the ingredients meant calories, i.e., took time to notice the ingredient units. (P4)
-- Was initially confused by the checkboxes; didn't know the why there were checks instead of bullets or numbers to the left of the individual instructions. (P3, P4)
+- The title 'Recipe Optimizing' confuse user in terms of the purpose. (P3 / Low)
+- It is hard to notice the role of 'Modify Amount' button. (P1, P2, P3 / High)
+- Not enough explanation of the amount optimization. (P4 / Medium)
+- It is hard to notice that 'Cooking Time' bar could be manipulated. (P4 /Low)
+- Meaning of the numbers on either side of the 'Cooking Time' bar is unclear. (P4 / Low)
+- Meaning of the numbers next to the ingredients is unclear. (P4 / Medium)
+- Purpose of the checkbox is unclear, and it is hard to notice a difference between gray/blue checkbox. (P1, P2, P3, P4 / High)
 
 #### High-level Reflections
 
-Users frequently go ahead of the guidance, or fall behind of it while not knowing what to do.
+- Users frequently go ahead of the guidance, or fall behind of it while not knowing what to do.
+- Our purpose of UIs could be misunderstood by users. With developer's sight, we could not understand why users do not understand our intention, but users are always right. For better result, it might helpful to think in user's viewpoint and do user tests from earlier stage.
 
 ## Studio Reflections
 
 
 
-## Plans for Iteration
+## Plan for Iteration
 
 (1) Recipe Suggestion page
 
