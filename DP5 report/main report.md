@@ -179,7 +179,7 @@ Okay. I’m ending the recording here. Now you can leave the session. Thank you 
 
 #### High-level Reflections
 
-- Users frequently go ahead of the guidance, or fall behind of it while not knowing what to do.
+- Users frequently go ahead of the guidance, or fall behind of it while not knowing what to do. It seems important to make sure the participants understand the tasks and encourage them, while giving them freedom to use prototype at the same time.
 - Our purpose of UIs could be misunderstood by users. With developer's sight, we could not understand why users do not understand our intention, but users are always right. For better result, it might helpful to think in user's viewpoint and do user tests from earlier stage.
 - Providing users too many ways to reach the same destination could confuse the user, or lead to some options being completely ignored, making the interface inefficient.
 
