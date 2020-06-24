@@ -216,6 +216,8 @@ About feedbacks for UI, we will address it in the next part.
 
 ## Plan for Iteration
 
+Our goal for next two weeks is to improve the learnability of our site, focusing on the typical and most frequent user scenario. To do so, we will resolve the most critical usability problems, while removing redundant elements that can confuse user.
+
 (1) Overall UI
 
 - Add a function to go home or previous page.
