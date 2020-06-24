@@ -170,7 +170,7 @@ Thank you and have a nice day!
 
 ##### Recipe Suggestion page
 
-- The title 'Recipe Finding' confuse user in terms of the purpose. (P4 / Low)
+- The title 'Recipe Finding' confused user in terms of the purpose. (P4 / Low)
 - It is hard to notice the role of 'Add Set' button. (P2, P3, P4 / High)
 - Purpose of 'Other Recipe List' is unclear. (P1, P2 / Low)
 
@@ -188,6 +188,7 @@ Thank you and have a nice day!
 
 - Users frequently go ahead of the guidance, or fall behind of it while not knowing what to do.
 - Our purpose of UIs could be misunderstood by users. With developer's sight, we could not understand why users do not understand our intention, but users are always right. For better result, it might helpful to think in user's viewpoint and do user tests from earlier stage.
+- Providing users with too many ways to reach the same destination could confuse the user, or lead to some options being completely ignored, making the interface inefficient.
 
 ## Studio Reflections
 
