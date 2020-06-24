@@ -206,6 +206,22 @@ Thank you and have a nice day!
 
 
 
+[First testing peer]
+
+- In task 2 (in recipe optimizing page), It is hard to recognize mean of modify button and table.
+- It is hard to go back previous page.
+
+
+
+[Second testing peer]
+
+- In task 3 (in recipe optimizing page),  it is hard to recognize mean of numbers upon a bar.
+  - After taking test few minutes, tester recognize its meaning herself.
+
+- It is hard to go back previous page.
+
+  
+
 #### Improvement Ideas
 
 During the testing sessions, we first presented users with a situation, then gave them goals to accomplish on each page. When the user was stuck - for example, P4 didn't realize that the cooking time could be manipulated - we gave them the more detailed instructions that are written above.
@@ -219,9 +235,12 @@ After each participant was finished, we asked them what they liked and found con
 (1) Recipe Suggestion page
 
 - Delete the Add Set function; it seems useless.
+  - The add set button is efficient when adding many types of materials, but only a small number of materials were added during actual testing. If this function is developed, it is not exposed at first. But if the user selects more than a certain number of types of materials, it can be added as a recommended function.
 - 
 
 (2) Recipe Optimizing page
 
 - Put the ingredient units on the right side of the boxes(?) (ex) Spaghetti Noodle |250| (g)
 - For the necessary instructions, put cubes without the checkmark, instead of checkboxes.
+
+(3) 
