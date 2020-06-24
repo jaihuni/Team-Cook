@@ -219,6 +219,8 @@ During the user test, we first described a hypothetic user situation. Then, gave
 
 After each participant was finished, we asked them what they liked and found confusing about the UI. We also asked for advice on improving the interface.
 
+About feedbacks for UI, we will address it in next part.
+
 
 ## Plan for Iteration
 
