@@ -93,7 +93,7 @@ Thank you and have a nice day!
 | **P1**<img src="\img\P1.jpg" width="400" height="400"> | - KNU student, 3rd year<br>- Not living alone but usually cooking for himself<br>- Novice cooker<br>- Usually cooks servings for 1 person<br>- Almost always uses recipes<br>- Follows recipes word-for-word |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
 | **P2**<img src="/img/P2.png" width="400" height="400"> | **- Non-KAIST student, 1st year<br>- Living alone from this year<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word(4/5)** |
-| **P3**                                                 | **- KAIST student, 4th year<br>- Living alone for 4 months<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Likely to follow recipes word-for-word(4/5)** |
+| **P3**![](img/P3.jpg)                                  | **- KAIST student, 4th year<br>- Living alone for 4 months<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Likely to follow recipes word-for-word(4/5)** |
 | **P4**<img src="/img/P4.jpg" width="400" height="400"> | **- Non-KAIST student, 2nd year<br>- Has never lived alone<br>- Novice cooker<br>- Usually cooks servings for 1~2 people<br>- Almost always uses recipes<br>- Follows recipes word-for-word** |
 
 #### Session Summaries
@@ -165,18 +165,27 @@ Thank you and have a nice day!
 
 #### Usability Problems
 
-- Thought the 'Recipe Finding' title above the Search input meant that the user should search for recipes, instead of ingredients. (Recipe Suggestion page) (P4)
-- Didn't notice the Add Set function. (Recipe Suggestion page) (P4)
-- Initially thought the numbers next to the ingredients meant calories, i.e., took time to notice the ingredient units. (Recipe Optimizing page) (P4)
-- Didn't realize the Cooking Time bar could be moved. (Recipe Optimizing page) (P4)
-- Didn't notice the numbers on either side of the Cooking Time bar (26, 36) meant the maximum and minimum cooking time. (Recipe Optimizing page) (P4)
-- Was initially confused by the checkboxes; didn't know the why there were checks instead of bullets or numbers to the left of the individual instructions. (Recipe Optimizing page) (P4)
+##### Overall UI
 
+- The meaning of 'Recipe Suggestion' is ambiguous. (P3)
+- Two identical 'Recipe Suggestion' button confuse user. (P3)
+- Going to Home or previous page does not work as user's intention (P3)
 
+##### Recipe Suggestion page
+
+- Thought the 'Recipe Finding' title above the Search input meant that the user should search for recipes, instead of ingredients. (P4)
+- Didn't notice the Add Set function. (P4)
+
+##### Recipe Optimizing page
+
+- Didn't realize the Cooking Time bar could be moved. (P4)
+- Didn't notice the numbers on either side of the Cooking Time bar (26, 36) meant the maximum and minimum cooking time. (P4)
+- Initially thought the numbers next to the ingredients meant calories, i.e., took time to notice the ingredient units. (P4)
+- Was initially confused by the checkboxes; didn't know the why there were checks instead of bullets or numbers to the left of the individual instructions. (P3, P4)
 
 #### High-level Reflections
 
-
+Users frequently go ahead of the guidance, or fall behind of it while not knowing what to do.
 
 ## Studio Reflections
 
