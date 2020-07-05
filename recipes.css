@@ -211,6 +211,11 @@ select {
     background-color: lightgray;
 }
 
+.basic-step {
+    position: relative;
+    left: 23px;
+}
+
 .hidden-step {
     text-decoration-line: line-through;
     text-decoration-color: black;
