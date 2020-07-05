@@ -137,7 +137,8 @@ th, td {
     border: 1px solid black;
     float: right;
     position: relative;
-    top: 450px;
+    top: 550px;
+    right: 10px;
 
 }
 
