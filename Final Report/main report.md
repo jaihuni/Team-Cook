@@ -8,6 +8,14 @@ https://youtu.be/ME8bDYcSEes
 
 #### Representative screenshots
 
+<img style="float: left" src="/img/1.png" width="600" height="250">
+
+<img style="float: left" src="/img/2-1.png" width="600" height="500">
+
+<img style="float: left" src="/img/2-2.png" width="600" height="500">
+
+<img style="float: left" src="/img/3.png" width="600" height="800">
+
 #### Quality arguments
 
 ## Iteration 
