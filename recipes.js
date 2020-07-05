@@ -22,9 +22,9 @@ function sliderInit() {
         max_time += Number($(this).attr('data-time'));
     });
     $('#time-slider').attr('min', min_time);
-    $('#minimum-time').text(min_time);
+    $('#minimum-time').text(min_time + 'm~');
     $('#time-slider').attr('max', max_time);
-    $('#maximum-time').text(max_time);
+    $('#maximum-time').text('~' + max_time + 'm');
     $('#time-slider').attr('value', max_time);
     $('#time-value').text($('#time-slider').val());
 
