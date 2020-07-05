@@ -46,7 +46,7 @@ function sliderInit() {
 function stepInit() {
     $('.basic-step').each(function () {
         $(this).find('input').attr('disabled', '');
-        $(this).find('input').attr('checked', 'checked');
+        $(this).find('input').attr('checked', false);
     })
     $('.extra-step').each(function () {
         $(this).on('click', extraStepClickCallback);
