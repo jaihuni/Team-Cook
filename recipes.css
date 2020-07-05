@@ -135,6 +135,10 @@ th, td {
     padding: 10px;
     background-color: #54ADFF;
     border: 1px solid black;
+    float: right;
+    position: relative;
+    top: 450px;
+
 }
 
 input[type="text"] {
