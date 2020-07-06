@@ -18,6 +18,10 @@ https://youtu.be/ME8bDYcSEes
 
 #### Quality arguments
 
+Most novice cookers do not seek to complete a perfect dish; they want a meal that tastes 'good.' Our interface provides that function, and also informs users which ingredients are essential to producing a dish's signature taste. This allows them to leave out ingredients that are undesired or currently nonexistent. As one of our user test participants commented, one wants to remodel recipes to suit their taste but doesn't know how. In addition the tradeoff between simplicity and quality can be adjusted to fit the cook's taste, instead of only providing two options.
+
+The cooking time function was also highly praised during our user test(s); it was commented as an improvement over Youtube videos that do not inform viewers of the total time required. (124)
+
 ## Iteration 
 
 ## Individual Reflection
