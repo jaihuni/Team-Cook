@@ -44,3 +44,13 @@ From the entire design project experience, I learned that user testing in a prot
 
 #### Nayeon Lee
 
+I contributed to the UI of task1, getting suggested recipes from input ingredients.
+
+- All functions of the Recipe Suggestion page (suggest.js)
+- Layout (initial design) of Recipe Suggestion page
+
+Since our team couldn't meet in person, we faced the hurdles of online meetings. They tended to drag on since people just stopped talking when they ran out of ideas. Initially those prolonged silences were really awkward, but later they actually helped with brainstorming as I was free to look over materials without being self-conscious.
+
+Throughout the project I learned that
+
+When first making the implementation, I thought that keeping a user's options open, i.e., giving the user more ways to do a certain action, would be more user-friendly. The user testing proved me wrong. Limiting the number of ways to accomplish a task, such as adding ingredients to a list, could actually reduce confusion from users and make the implementation less complex.
