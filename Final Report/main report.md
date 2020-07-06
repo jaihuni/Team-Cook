@@ -51,6 +51,4 @@ I contributed to the UI of task1, getting suggested recipes from input ingredien
 
 Since our team couldn't meet in person, we faced the hurdles of online meetings. They tended to drag on since people just stopped talking when they ran out of ideas. Initially those prolonged silences were really awkward, but later they actually helped with brainstorming as I was free to look over materials without being self-conscious.
 
-Throughout the project I learned that
-
-When first making the implementation, I thought that keeping a user's options open, i.e., giving the user more ways to do a certain action, would be more user-friendly. The user testing proved me wrong. Limiting the number of ways to accomplish a task, such as adding ingredients to a list, could actually reduce confusion from users and make the implementation less complex.
+Throughout the project I learned that communication, both between developers and between the user and developer was important. A misunderstanding that arose while discussing ideas on design or functions could lead to extra time spent on clarification. Also when first making the implementation, I thought that keeping a user's options open, i.e., giving the user more ways to do a certain action, would be more user-friendly. The user testing proved me wrong. Limiting the number of ways to accomplish a task, such as adding ingredients to a list, could actually reduce confusion from users and make the implementation less complex.
