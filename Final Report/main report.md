@@ -20,9 +20,20 @@ https://youtu.be/ME8bDYcSEes
 
 Most novice cookers do not seek to complete a perfect dish; they want a meal that tastes 'good.' Our interface provides that function, and also informs users which ingredients are essential to producing a dish's signature taste. This allows them to leave out ingredients that are undesired or currently nonexistent. As one of our user test participants commented, one wants to remodel recipes to suit their taste but doesn't know how. In addition the tradeoff between simplicity and quality can be adjusted to fit the cook's taste, instead of only providing two options.
 
-The cooking time function was also highly praised during our user test(s); it was commented as an improvement over Youtube videos that do not inform viewers of the total time required. (124)
+The cooking time function was also highly praised during our user test(s); it was commented as an improvement over YouTube videos that do not inform viewers of the total time required. (124)
 
 ## Iteration 
+
+Our goal was to improve the learnability of the prototype. To do so, we resolved 3 ciritical usability problems found from the user testing.
+
+- Placed a text "Amount" above the amount input boxes.
+  - Some users thought that the amount input boxes are displaying other information as calories. Also, it was hard for users to recognize what they have to do at a glance. For better learnability, we placed a text "Amount" above the input boxes so that a user can have confidence with their action.
+- Placed 'Modify Amount' button at bottom.
+  - 'Modify Amount' button placed at top was not noticeable when a user finished input. Thus, we placed 'Modify Amount' button at bottom so that a user can easily notice the button.
+- Removed checkboxes beside the necessary steps.
+  - Purpose of the checkboxes were unclear and a user had a trouble with noticing a difference between necessary/optional steps. Rather than placing a checkmark beside every step, we removed checkboxes beside the necessary steps and placed it only beside the optional steps. This could make a user easier to notice that the user can only manipulate optional steps.
+
+From the iteration, we learned that continuous effort for improvement is important.
 
 ## Individual Reflection
 
