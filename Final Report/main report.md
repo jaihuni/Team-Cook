@@ -72,8 +72,21 @@ In terms of teamwork, I think our team had a problem in communication. While imp
 
 From the entire design project experience, I learned that user testing in a prototype stage is significant. User's expectation on UI is sometimes completely different from developer's expectation. We cannot gather enough feedbacks from peer evaluation, there must be a feedback from users. By doing so, a lot of times which could be spent in developing unnecessary features can be saved.
 
-
 #### Jaehun Kim
+
+I contributed to overall UI, especially background common UI.
+
+- Background layout (main_page)
+- Main page link button
+- Other recipe list which is beside in other page
+- Small change some other UI to semantic UI form
+- Layout in recipe optimizing (cell dividing)
+
+When developing, different parts were implemented, so the quality will be different for each individual skill. Therefore, when developing the overall layout, my biggest goal was to develop a system that would collect as much of each fragment as possible. Therefore, when developing, when expressing the implementations of each one, I made the layer to be loaded in the large layout I made.
+
+But here comes the user problem. The problem is that undo doesn't work because all elements are loaded on one page. Because of the nature of the page, I didn't need undo, so it was difficult to know this during development. This has become one of the problems many people point out during user tests. This experience made me realize that systems created for the convenience of developers can sometimes be inconvenient for users.
+
+Both lo-fi prototype and hi-fi prototype were responsible for implementing the background. There was no big problem in teamwork, but there was some inconvenience. It was my job to create a background for the team to create their own elements, and to coordinate so that each element could be harmonized. Therefore, I was in charge of the early and late stages of the overall work. When we coordinated our development, we tried to ask for comments if possible. However, since it is not always possible to ask such a question, It's a shame some factors have been changed at will without considering the intention.
 
 #### Nayeon Lee
 
