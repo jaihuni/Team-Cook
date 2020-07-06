@@ -39,6 +39,24 @@ From the iteration, we learned that continuous effort for improvement is importa
 
 #### Mingi Shin
 
+I mainly worked on supporting task 3, modifying the recipe steps. I implemented mechanisms, ui elements for the recipe step management.
+
+- Implement slider ui that represents: the minimum and maximum cooking time, estimated cooking time, and time input for user at the same time.
+- Algorithm to support dynamic recipe, that include/exclude steps according to user's wanted time.
+- Algorithm to change the ui displaying estimated time, corresponding to the editted recipe.
+- Added hover animation and checkboxes to steps, to help user noticing that the recipe is customizable.
+- Keeping the estimated time on the screen, even if user scroll down to see the recipe steps.
+
+And also, we did some discussions on the overall menu/the structure of pages together.
+
+After the final presentation, we discussed together how can we fix the usability problems that appeared while testing. After that, I modified some terms to keep consistency, and make them represent their function better.
+
+Our team haven't got any major conflict. Our team members' works were distributed almost equally, and they finished the job at time. But since that, I think our work seems more like conservative than innovative. We lacked a larger view to the problem and how our final outcome will look, so we tend to concentrate on solving the partial problem individually and merging the solution into one page. I think it is mainly because it is hard to share such idea using the remote meeting. But it could be overcome by using online sketch board, or more active discussion. And also, the team need someone(or everyone) that suggests overall idea or the quality goal, rather than everyone doing their given job passively. Some idea that we thought everyone is sharing, can turn out to be different in the middle. We've passed such minor conflicts and gone with the flow, because arguing and changing the design can hold us back and someone's contribution would be thrown away. But actually, it could be better if we stopped and check what do we have in common in our mind, and what do we misunderstood.
+
+Before the class, I thought the developer can judge the usability of the design and predict the user behavior. But through the project, I've learned that we cannot find every usability problems, and even the usability issues that testers found can be different from others'. Also, naming things can be very hard since the developers cannot really think from the user's perspective.
+
+For web-based GUI implementation, I've learned to distinguish static elements and dynamic elements. Something can be changed and something can derive change, should look different from the static elements and pop out from the entire screen. To do so, I added color on buttons and a slider. I also used hovering animation to transfer the meaning that this element can be clicked. And without animation, it was hard to notice the sudden change of the ui element. I learned that the animation is the one of the most effective way to attract user's attention.
+
 #### Joonyoung Keum
 
 Contributed to UI of the task 2, ingredients amount optimization.
